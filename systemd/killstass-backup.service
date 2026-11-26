@@ -1,0 +1,14 @@
+[Unit]
+Description=killstass PostgreSQL backup
+Requires=docker.service
+After=docker.service
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/killstass
+Environment=BACKUP_DIR=/var/backups/killstass
+Environment=KEEP_BACKUPS=14
+ExecStart=/opt/killstass/scripts/backup.sh
+Nice=15
+IOSchedulingClass=idle
+UMask=0077

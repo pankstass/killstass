@@ -1,0 +1,18 @@
+[
+ {"code":"2024-team-a","kind":"team","edition":"2024","label":"Учебная команда Альфа","config":{"demo":true}},
+ {"code":"2024-team-b","kind":"team","edition":"2024","label":"Учебная команда Браво","config":{"demo":true}},
+ {"code":"2024-mission","kind":"mission","edition":"2024","label":"Учебная миссия — контроль секторов","config":{"demo":true,"objective_codes":["2024-critical","2024-tactical"]}},
+ {"code":"2024-critical","kind":"objective","edition":"2024","label":"Критическая цель (учебная)","config":{"demo":true}},
+ {"code":"2024-tactical","kind":"objective","edition":"2024","label":"Тактическая цель (учебная)","config":{"demo":true}},
+ {"code":"2024-zone","kind":"killzone","edition":"2024","label":"Учебная карта — открытая зона","config":{"demo":true}},
+ {"code":"2024-vp-critical","kind":"source","edition":"2024","label":"Критическая цель","config":{"max_per_turn":99}},
+ {"code":"2024-vp-tactical","kind":"source","edition":"2024","label":"Тактическая цель","config":{"max_per_turn":99}},
+ {"code":"2024-vp-kill","kind":"source","edition":"2024","label":"Устранения","config":{"max_per_turn":99}},
+ {"code":"2024-vp-manual","kind":"source","edition":"2024","label":"Прочие / итоговые VP","config":{"max_per_turn":999}},
+ {"code":"2021-team-a","kind":"team","edition":"2021","label":"Учебная команда 2021","config":{"demo":true}},
+ {"code":"2021-mission","kind":"mission","edition":"2021","label":"Учебная миссия 2021","config":{"demo":true}},
+ {"code":"2021-zone","kind":"killzone","edition":"2021","label":"Учебная карта 2021","config":{"demo":true}},
+ {"code":"2021-vp-critical","kind":"source","edition":"2021","label":"Критическая цель","config":{"max_per_turn":99}},
+ {"code":"2021-vp-tactical","kind":"source","edition":"2021","label":"Тактическая цель","config":{"max_per_turn":99}},
+ {"code":"2021-vp-manual","kind":"source","edition":"2021","label":"Прочие / итоговые VP","config":{"max_per_turn":999}}
+]

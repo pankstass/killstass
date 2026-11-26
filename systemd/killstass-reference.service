@@ -1,0 +1,16 @@
+[Unit]
+Description=killstass rules reference update (warhammer-oracle, kt-datacards, BSData)
+Requires=docker.service
+After=docker.service network-online.target
+Wants=network-online.target
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/killstass
+Environment=BACKUP_DIR=/var/backups/killstass
+Environment=TRIGGER=timer
+ExecStart=/opt/killstass/scripts/update-reference.sh
+TimeoutStartSec=30min
+Nice=15
+IOSchedulingClass=idle
+UMask=0077

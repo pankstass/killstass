@@ -1,0 +1,62 @@
+{
+  "catalogs": [
+    {
+      "code": "2024-wahapedia-tac-op-sweep-clear",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Зачистка",
+      "label_en": "Sweep & Clear",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Seek & Destroy",
+        "reveal": "Первое выведение врага у маркера либо действие Clear.",
+        "summary": "Не проверено: в опубликованной карточке пропущен глагол в условии swept и добавлена отдельная строка VP. Требуется сверка с карточкой BattleKit или официальным пакетом. Запись неактивна.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": false,
+      "verification": "conflict",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-battlekit-team-strike-force-variel",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Не проверено: Ударная группа Вариэля",
+      "label_en": "Strike Force Variel",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "strike-force-variel",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [],
+        "needs_review": [
+          "Нет публичной страницы команды в проверенном sitemap Wahapedia; архетипы не подтверждены"
+        ]
+      },
+      "active": false,
+      "verification": "unverified",
+      "source": "battlekit",
+      "source_url": "https://battlekit.killteam.ru/",
+      "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+      "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+      "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+    }
+  ],
+  "game_sequence": []
+}

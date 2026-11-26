@@ -1,0 +1,176 @@
+name: killstass
+x-logging: &logging
+  driver: json-file
+  options:
+    max-size: '5m'
+    max-file: '2'
+services:
+  db:
+    image: killstass-db:local
+    platform: linux/amd64
+    build:
+      context: ./db
+      args:
+        POSTGRES_IMAGE: ${POSTGRES_IMAGE:-postgres:16-alpine}
+    container_name: killstass-db
+    environment:
+      POSTGRES_DB: killstass
+      POSTGRES_USER: killstass_owner
+      POSTGRES_PASSWORD: ${DB_OWNER_PASSWORD:?Run scripts/init-env.sh}
+      DB_APP_PASSWORD: ${DB_APP_PASSWORD:?Run scripts/init-env.sh}
+      TZ: UTC
+      POSTGRES_INITDB_ARGS: '--auth-host=scram-sha-256 --data-checksums --encoding=UTF8'
+    command: ['postgres','-c','shared_buffers=128MB','-c','effective_cache_size=512MB','-c','work_mem=2MB','-c','maintenance_work_mem=32MB','-c','max_connections=24','-c','wal_buffers=4MB','-c','checkpoint_timeout=15min','-c','max_wal_size=256MB','-c','min_wal_size=64MB','-c','random_page_cost=4','-c','effective_io_concurrency=1','-c','log_min_duration_statement=1000','-c','timezone=UTC']
+    volumes: [db_data:/var/lib/postgresql/data]
+    networks: [backend]
+    shm_size: 160m
+    mem_limit: 640m
+    cpus: 1.25
+    pids_limit: 100
+    restart: unless-stopped
+    logging: *logging
+    healthcheck:
+      test: ['CMD-SHELL','pg_isready -U "$$POSTGRES_USER" -d "$$POSTGRES_DB" && psql -U "$$POSTGRES_USER" -d "$$POSTGRES_DB" -tAc "SELECT count(*)>=2 FROM schema_migrations" | grep -q t']
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+  api:
+    image: killstass-api:local
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:-python:3.12-slim-bookworm}
+    container_name: killstass-api
+    environment:
+      DATABASE_URL: postgresql://killstass_app:${DB_APP_PASSWORD:?Run scripts/init-env.sh}@db:5432/killstass
+      APP_ORIGIN: ${APP_ORIGIN:-https://192.168.1.250}
+      CHALLENGE_TTL_HOURS: ${CHALLENGE_TTL_HOURS:-48}
+      INVITE_TTL_HOURS: ${INVITE_TTL_HOURS:-12}
+      MAX_OPEN_SETUPS: ${MAX_OPEN_SETUPS:-10}
+      # v1.10: one-time password reset codes; Web Push (scripts/push.sh) only queues, pushworker sends
+      RESET_TTL_MINUTES: ${RESET_TTL_MINUTES:-60}
+      PUSH_ENABLED: ${PUSH_ENABLED:-0}
+      PUSH_CONTACT: ${PUSH_CONTACT:-}
+      TZ: UTC
+    depends_on:
+      db: {condition: service_healthy}
+    networks: [backend]
+    read_only: true
+    tmpfs: ["/tmp:size=16m,noexec,nosuid"]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 384m
+    cpus: 1.0
+    pids_limit: 64
+    restart: unless-stopped
+    logging: *logging
+    healthcheck:
+      test: ['CMD','python','-c',"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+  proxy:
+    image: killstass-proxy:local
+    platform: linux/amd64
+    build:
+      context: ./proxy
+      args:
+        CADDY_IMAGE: ${CADDY_IMAGE:-caddy:2.10.0-alpine}
+    container_name: killstass-proxy
+    environment:
+      APP_HOST: ${APP_HOST:-192.168.1.250}
+      # v1.10: domain (scripts/domain.sh), its certificate (internal | files from scripts/cert.sh),
+      # allowed client networks (LAN; + 100.64.0.0/10 with scripts/tailscale.sh). Never empty for Caddy.
+      KS_DOMAIN: ${KS_DOMAIN:-killstass.invalid}
+      KS_TLS_MODE: ${KS_TLS_MODE:-internal}
+      KS_ALLOW_NETS: ${KS_ALLOW_NETS:-192.168.1.0/24}
+      TZ: UTC
+      XDG_DATA_HOME: /data
+      XDG_CONFIG_HOME: /config
+    ports:
+      - '${BIND_IP:-192.168.1.250}:80:8080/tcp'
+      - '${BIND_IP:-192.168.1.250}:443:8443/tcp'
+    volumes: [caddy_data:/data,caddy_config:/config,./local/acme/certificates:/certs:ro]
+    depends_on:
+      api: {condition: service_healthy}
+    networks: [backend,edge]
+    read_only: true
+    tmpfs: ["/tmp:size=8m,noexec,nosuid"]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 128m
+    cpus: 0.5
+    pids_limit: 64
+    restart: unless-stopped
+    logging: *logging
+    healthcheck:
+      test: ['CMD-SHELL','wget -q -O /dev/null http://127.0.0.1:8090/health']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+  # v1.10, optional (COMPOSE_PROFILES=push, scripts/push.sh): delivers queued Web Push messages. The only
+  # application container with internet access (edge); same image as api, no ports, read-only.
+  pushworker:
+    image: killstass-api:local
+    platform: linux/amd64
+    profiles: [push]
+    container_name: killstass-pushworker
+    command: ['python','-m','api.push','worker']
+    environment:
+      DATABASE_URL: postgresql://killstass_app:${DB_APP_PASSWORD:?Run scripts/init-env.sh}@db:5432/killstass
+      APP_ORIGIN: ${APP_ORIGIN:-https://192.168.1.250}
+      PUSH_ENABLED: ${PUSH_ENABLED:-0}
+      PUSH_CONTACT: ${PUSH_CONTACT:-}
+      HTTPS_PROXY: ${PUSH_HTTPS_PROXY:-}
+      TZ: UTC
+    depends_on:
+      db: {condition: service_healthy}
+    networks: [backend,edge]
+    read_only: true
+    tmpfs: ["/tmp:size=8m,noexec,nosuid"]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 160m
+    cpus: 0.25
+    pids_limit: 32
+    restart: unless-stopped
+    logging: *logging
+  # v1.10, optional (COMPOSE_PROFILES=tailscale, scripts/tailscale.sh): subnet router for the server's own
+  # address, so tailnet devices open the same URL from outside the club. Host network (routing), tun device.
+  tailscale:
+    image: ${TAILSCALE_IMAGE:-tailscale/tailscale:v1.104.4}
+    profiles: [tailscale]
+    container_name: killstass-tailscale
+    network_mode: host
+    environment:
+      TS_AUTHKEY: ${TS_AUTHKEY:-}
+      TS_AUTH_ONCE: 'true'
+      TS_HOSTNAME: ${TS_HOSTNAME:-killstass}
+      TS_ROUTES: ${TS_ROUTES:-192.168.1.250/32}
+      TS_STATE_DIR: /var/lib/tailscale
+      TS_USERSPACE: 'false'
+      TS_ACCEPT_DNS: 'false'
+      # Control connection only over HTTPS 443. On port 80 (the default fast path) an ISP's transparent proxy can
+      # pass the upgrade and then stall the stream: «map response long-poll timed out!», node offline.
+      TS_FORCE_NOISE_443: 'true'
+      # Keep the client's tailnet address (100.x) as the source: the proxy allows 100.64.0.0/10 by address.
+      TS_EXTRA_ARGS: ${TS_EXTRA_ARGS:---snat-subnet-routes=false}
+    volumes: [./local/tailscale:/var/lib/tailscale]
+    devices: [/dev/net/tun:/dev/net/tun]
+    cap_add: [NET_ADMIN, NET_RAW]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 128m
+    pids_limit: 64
+    restart: unless-stopped
+    logging: *logging
+networks:
+  backend: {internal: true}
+  edge: {}
+volumes:
+  db_data:
+  caddy_data:
+  caddy_config:

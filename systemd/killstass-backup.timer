@@ -1,0 +1,8 @@
+[Unit]
+Description=Daily killstass backup
+[Timer]
+OnCalendar=*-*-* 04:30:00 Europe/Moscow
+Persistent=true
+RandomizedDelaySec=10m
+[Install]
+WantedBy=timers.target

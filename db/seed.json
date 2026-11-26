@@ -1,0 +1,3334 @@
+{
+  "catalogs": [
+    {
+      "code": "2024-wahapedia-pack-approved2025",
+      "kind": "pack",
+      "edition": "2024",
+      "label": "Утверждённые операции 2025",
+      "label_en": "Approved Ops 2025",
+      "config": {
+        "pack": "approved2025",
+        "max_per_component": 6,
+        "primary_divisor": 2,
+        "rounding": "ceil",
+        "turns": 4,
+        "thresholds": {
+          "5": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "6": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "7": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "8": [
+            2,
+            3,
+            5,
+            6,
+            8
+          ],
+          "9": [
+            2,
+            4,
+            5,
+            7,
+            9
+          ],
+          "10": [
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "11": [
+            2,
+            4,
+            7,
+            9,
+            11
+          ],
+          "12": [
+            2,
+            5,
+            7,
+            10,
+            12
+          ],
+          "13": [
+            3,
+            5,
+            8,
+            10,
+            13
+          ],
+          "14": [
+            3,
+            6,
+            8,
+            11,
+            14
+          ]
+        },
+        "threshold_evidence": {
+          "source": "wahapedia",
+          "source_url": "https://wahapedia.ru/kill-team3/img/KillGrade.png",
+          "retrieved_at": "2026-10-26T15:26:33.366211+00:00",
+          "rules_version": "Approved Ops 2025 — August 2026",
+          "content_hash": "1404dd610fd9b87376c37255690d33dbe5fe32d3a051b9a3f1487df68764f808"
+        }
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-archetype-infiltration",
+      "kind": "archetype",
+      "edition": "2024",
+      "label": "Проникновение",
+      "label_en": "Infiltration",
+      "config": {
+        "pack": "approved2025"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-archetype-recon",
+      "kind": "archetype",
+      "edition": "2024",
+      "label": "Разведка",
+      "label_en": "Recon",
+      "config": {
+        "pack": "approved2025"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-archetype-security",
+      "kind": "archetype",
+      "edition": "2024",
+      "label": "Охрана",
+      "label_en": "Security",
+      "config": {
+        "pack": "approved2025"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-archetype-seek-destroy",
+      "kind": "archetype",
+      "edition": "2024",
+      "label": "Найти и уничтожить",
+      "label_en": "Seek & Destroy",
+      "config": {
+        "pack": "approved2025"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-secure",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Закрепление",
+      "label_en": "Secure",
+      "config": {
+        "pack": "approved2025",
+        "summary": "После первого поворота: 1 AP, закрепите контролируемый маркер до его перезакрепления противником; нельзя в зоне контроля врага. В конце поворота +1 VP за хотя бы один закреплённый маркер и +1 VP, если их больше, чем у противника.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-loot",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Разграбление",
+      "label_en": "Loot",
+      "config": {
+        "pack": "approved2025",
+        "summary": "После первого поворота: действие Loot за 1 AP на контролируемом маркере; нельзя в зоне контроля врага и повторно на том же маркере в этом повороте. За каждое действие +1 VP, максимум 2 VP за поворот.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-transmission",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Передача сигнала",
+      "label_en": "Transmission",
+      "config": {
+        "pack": "approved2025",
+        "summary": "После первого поворота: действие за 1 AP включает передачу контролируемого маркера до начала следующего поворота; нельзя в зоне контроля врага. В конце поворота +1 VP за контроль хотя бы одного передающего маркера, ещё +1 VP за большее число таких маркеров, чем у врага.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-orb",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Сфера",
+      "label_en": "Orb",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Изначально сфера на центральном маркере. После первого поворота действие за 1 AP на контролируемом маркере со сферой перемещает её с центра на любой крайний маркер или обратно; нельзя в зоне контроля врага. В конце поворота +1 VP за каждый контролируемый маркер без сферы.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-stake-claim",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Заявка на контроль",
+      "label_en": "Stake Claim",
+      "config": {
+        "pack": "approved2025",
+        "summary": "В начале Gambit поворотов 2–4, начиная с инициативы: выберите маркер и обещание контролировать его либо не допустить его оспаривания врагом к концу поворота. Каждый маркер выбирается один раз за бой. В конце поворота +1 VP за большее число контролируемых маркеров и +1 VP за выполненное обещание.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-energy-cells",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Энергоячейки",
+      "label_en": "Energy Cells",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Поднять маркер цели можно со второго поворота: дополнительная стоимость +2 AP во втором, +1 AP в третьем, обычная в четвёртом; действие нельзя сделать бесплатным или удешевить. Переносчика нельзя убрать и выставить дальше 6 дюймов. В конце поворотов 2–4 +1 VP за большее число контролируемых маркеров. В конце боя +1 VP за каждый переносимый маркер.",
+        "per_turn_caps": [
+          0,
+          1,
+          1,
+          4
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-download",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Загрузка",
+      "label_en": "Download",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Действие за 1 AP доступно с третьего поворота на центральном или вражеском контролируемом маркере; нельзя в зоне контроля врага и повторно на уже загруженном маркере. В конце поворотов 2–4 +1 VP за большее число контролируемых незагруженных маркеров. Загрузка даёт 1 VP в третьем или 2 VP в четвёртом повороте.",
+        "per_turn_caps": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-data",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Данные",
+      "label_en": "Data",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Compile Data за 1 AP с поворота 2: добавьте единицу данных на контролируемый маркер, не более одного раза на маркер за поворот. Send Data за 1 AP только в повороте 4: снимите все данные с контролируемого маркера и получите столько же VP. Оба действия нельзя выполнять в зоне контроля врага. В конце поворотов 2 и 3 +1 VP, если действий Compile Data выполнено больше, чем у врага.",
+        "per_turn_caps": [
+          0,
+          1,
+          1,
+          6
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-mission-reboot",
+      "kind": "mission",
+      "edition": "2024",
+      "label": "Перезапуск",
+      "label_en": "Reboot",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Пронумеруйте маркеры 1–3. В начале каждого Gambit тайно и одновременно выберите маркер: если выбран один и тот же, он инертен; иначе инертен невыбранный. С поворота 2 действие Reboot за 2 AP на контролируемом инертном маркере снимает инертность; нельзя в зоне контроля врага. В конце поворотов 2–4 +1 VP за каждый контролируемый неинертный маркер.",
+        "per_turn_caps": [
+          0,
+          3,
+          3,
+          3
+        ],
+        "max_per_battle": 6,
+        "objective_count": 3,
+        "translation": "Редакторский русский пересказ, не официальный перевод"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-plant-devices",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Установка устройств",
+      "label_en": "Plant Devices",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Infiltration",
+        "reveal": "Первое действие Plant Device.",
+        "summary": "С поворота 2 установите устройство на контролируемый маркер за 1 AP, не в зоне контроля врага и без повторного своего устройства. В конце поворота 1 VP за устройство на вражеском маркере и по 1 VP за другие маркеры с устройством, оспариваемые врагом; максимум 2 VP.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-steal-intelligence",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Похищение разведданных",
+      "label_en": "Steal Intelligence",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Infiltration",
+        "reveal": "Первый выведенный из строя враг.",
+        "summary": "Перед удалением выведенного врага положите маркер разведданных в его зоне контроля. Свои могут поднимать их, перенося до двух либо один и другой маркер. В конце поворотов 2–4 +1 VP, если свои несут разведданные; в конце боя по 1 VP за каждый переносимый маркер.",
+        "per_turn_caps": [
+          0,
+          1,
+          1,
+          6
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-track-enemy",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Слежение за противником",
+      "label_en": "Track Enemy",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Infiltration",
+        "reveal": "Первое начисление VP.",
+        "summary": "Отслеживаемый враг — допустимая цель для своего оперативника с Conceal в пределах 6 дюймов, который сам не является допустимой целью врага и вне зоны контроля врагов. В конце поворотов 2–4: один отслеживаемый враг даёт 1 VP (2 VP в четвёртом), два и более дают 2 VP. Максимум 2 VP за поворот.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-flank",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Охват",
+      "label_en": "Flank",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Recon",
+        "reveal": "Как стратегический гамбит.",
+        "summary": "Разделите поле на два фланга линией между центрами краёв игроков. Оспаривают фланг оперативники целиком в нём и на вражеской территории; контроль по большей сумме APL. После раскрытия в конце поворотов 2–4 по 1 VP за контролируемый фланг; в четвёртом 2 VP, если он контролировался и в третьем. Общий максимум 2 VP за поворот.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-retrieval",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Извлечение",
+      "label_en": "Retrieval",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Recon",
+        "reveal": "Первое начисление VP.",
+        "summary": "С поворота 2 Retrieve за 1 AP на ещё не обысканном своими контролируемом маркере: оперативник получает маркер Retrieval; нельзя уже переносить маркер или находиться в зоне контроля врага. Retrieval можно поднимать. За первый обыск каждого маркера +1 VP, в конце боя +1 VP за каждый переносимый Retrieval.",
+        "per_turn_caps": [
+          0,
+          3,
+          3,
+          6
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-scout-enemy-movement",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Разведка перемещений",
+      "label_en": "Scout Enemy Movement",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Recon",
+        "reveal": "Первое действие Scout.",
+        "summary": "С поворота 2 Scout за 1 AP: выберите готового видимого врага дальше 6 дюймов; он наблюдаем до следующего Ready. Нельзя с Engage или в зоне контроля врага. В конце поворота по 1 VP за наблюдаемого врага, видимого любому своему оперативнику; максимум 2 VP.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-plant-banner",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Установка знамени",
+      "label_en": "Plant Banner",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Security",
+        "reveal": "При действии Plant Banner.",
+        "summary": "С поворота 2 Plant Banner за 1 AP: поставьте знамя в зоне контроля оперативника, целиком на вражеской территории и дальше 5 дюймов от нейтрального края. Один раз за бой, нельзя в зоне контроля врага; знамя можно поднять. В конце поворота 1 VP, если оно на поле, целиком у врага и контролируется своими; 2 VP, если ещё и не оспаривается врагом.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-martyrs",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Мученики",
+      "label_en": "Martyrs",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Security",
+        "reveal": "Первый свой оперативник выведен из строя при оспаривании маркера.",
+        "summary": "При первом выведении каждого своего оперативника из строя во время оспаривания положите на маркер жетон Martyr; повторное выведение после возвращения жетон не даёт. В конце поворотов 2–4 можно снять жетоны с маркеров, оспариваемых своими: по 1 VP, либо по 2 VP при контроле маркера. Максимум 2 VP за поворот.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-envoy",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Посланник",
+      "label_en": "Envoy",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Security",
+        "reveal": "Первое назначение посланника.",
+        "summary": "Как стратегический гамбит поворотов 2–4 выберите своего оперативника посланником до следующего Ready. Нельзя повторять выбранного ранее или игнорируемого для Kill Op. В конце поворота 1 VP, если посланник целиком у врага и вне зоны контроля врагов; 2 VP, если также не потерял ран за поворот.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-rout",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Разгром",
+      "label_en": "Rout",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Seek & Destroy",
+        "reveal": "Первое начисление VP.",
+        "summary": "Когда свой оперативник выводит врага из строя, находясь в пределах 6 дюймов от вражеской зоны высадки, +1 VP, либо +2 VP, если у врага характеристика Wounds не менее 12. Максимум 2 VP за поворот.",
+        "per_turn_caps": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-sweep-clear",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Зачистка",
+      "label_en": "Sweep & Clear",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Seek & Destroy",
+        "reveal": "Первое выведение из строя врага, оспаривающего маркер цели, либо первое действие Clear своим оперативником (что раньше).",
+        "summary": "Когда выводится из строя враг, оспаривающий маркер цели, этот маркер становится swept до шага Ready следующей фазы стратегии (по разъяснению GW выведение оперативника с правилом Expendable маркер swept не делает). Действие Clear (1AP): маркер, который контролирует активный оперативник, расчищен до конца поворота; нельзя в первом повороте и в пределах контроля врага. В конце каждого поворота после первого: центральный или вражеский маркер расчищен и враг его не оспаривает — 1 VP, а если он ещё и swept — 2 VP. Если свои оперативники контролируют swept-маркер — 1 VP. Максимум 2 VP за поворот.",
+        "per_turn_caps": [
+          0,
+          2,
+          2,
+          2
+        ],
+        "max_per_battle": 6,
+        "errata": "GW Approved Ops: Update Log, Errata August ’26"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-11-04T08:13:59.769275+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "c3617644be41bbdb8ae9311512b373d27fea142906e6d7acef63786bfb070e44"
+    },
+    {
+      "code": "2024-wahapedia-tac-op-dominate",
+      "kind": "tac_op",
+      "edition": "2024",
+      "label": "Доминирование",
+      "label_en": "Dominate",
+      "config": {
+        "pack": "approved2025",
+        "archetype": "Seek & Destroy",
+        "reveal": "Первое выведение врага своим оперативником.",
+        "summary": "За выведение врага свой оперативник получает жетон Dominate, либо два при Wounds врага не менее 12. В конце третьего и четвёртого поворота можно снимать жетоны со своих невыведенных оперативников на поле: по 1 VP за жетон, максимум 3 VP за поворот.",
+        "per_turn_caps": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "max_per_battle": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-source-crit",
+      "kind": "source",
+      "edition": "2024",
+      "label": "Критическая операция",
+      "label_en": "Crit Op",
+      "config": {
+        "pack": "approved2025",
+        "component": "crit",
+        "max_per_battle": 6,
+        "max_per_turn": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-source-tac",
+      "kind": "source",
+      "edition": "2024",
+      "label": "Тактическая операция",
+      "label_en": "Tac Op",
+      "config": {
+        "pack": "approved2025",
+        "component": "tac",
+        "max_per_battle": 6,
+        "max_per_turn": 6
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-local-source-recorded",
+      "kind": "source",
+      "edition": "2024",
+      "label": "Итоговые VP сыгранного матча",
+      "label_en": "Recorded final VP",
+      "config": {
+        "recorded_total": true,
+        "max_per_turn": 21
+      },
+      "active": true,
+      "verification": "local",
+      "source": null,
+      "source_url": null,
+      "retrieved_at": null,
+      "rules_version": null,
+      "content_hash": null
+    },
+    {
+      "code": "2024-wahapedia-killzone-non-specific-1",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Non-specific · схема 1",
+      "label_en": "Non-specific · Map 1",
+      "config": {
+        "pack": "approved2025",
+        "variant": 1,
+        "killzone": "Non-specific",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-non-specific-2",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Non-specific · схема 2",
+      "label_en": "Non-specific · Map 2",
+      "config": {
+        "pack": "approved2025",
+        "variant": 2,
+        "killzone": "Non-specific",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-non-specific-3",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Non-specific · схема 3",
+      "label_en": "Non-specific · Map 3",
+      "config": {
+        "pack": "approved2025",
+        "variant": 3,
+        "killzone": "Non-specific",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-non-specific-4",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Non-specific · схема 4",
+      "label_en": "Non-specific · Map 4",
+      "config": {
+        "pack": "approved2025",
+        "variant": 4,
+        "killzone": "Non-specific",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-non-specific-5",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Non-specific · схема 5",
+      "label_en": "Non-specific · Map 5",
+      "config": {
+        "pack": "approved2025",
+        "variant": 5,
+        "killzone": "Non-specific",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-non-specific-6",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Non-specific · схема 6",
+      "label_en": "Non-specific · Map 6",
+      "config": {
+        "pack": "approved2025",
+        "variant": 6,
+        "killzone": "Non-specific",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-volkus-1",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Volkus · схема 1",
+      "label_en": "Volkus · Map 1",
+      "config": {
+        "pack": "approved2025",
+        "variant": 1,
+        "killzone": "Volkus",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-volkus-2",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Volkus · схема 2",
+      "label_en": "Volkus · Map 2",
+      "config": {
+        "pack": "approved2025",
+        "variant": 2,
+        "killzone": "Volkus",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-volkus-3",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Volkus · схема 3",
+      "label_en": "Volkus · Map 3",
+      "config": {
+        "pack": "approved2025",
+        "variant": 3,
+        "killzone": "Volkus",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-volkus-4",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Volkus · схема 4",
+      "label_en": "Volkus · Map 4",
+      "config": {
+        "pack": "approved2025",
+        "variant": 4,
+        "killzone": "Volkus",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-volkus-5",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Volkus · схема 5",
+      "label_en": "Volkus · Map 5",
+      "config": {
+        "pack": "approved2025",
+        "variant": 5,
+        "killzone": "Volkus",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-volkus-6",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Volkus · схема 6",
+      "label_en": "Volkus · Map 6",
+      "config": {
+        "pack": "approved2025",
+        "variant": 6,
+        "killzone": "Volkus",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-gallowdark-1",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Gallowdark · схема 1",
+      "label_en": "Gallowdark · Map 1",
+      "config": {
+        "pack": "approved2025",
+        "variant": 1,
+        "killzone": "Gallowdark",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-gallowdark-2",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Gallowdark · схема 2",
+      "label_en": "Gallowdark · Map 2",
+      "config": {
+        "pack": "approved2025",
+        "variant": 2,
+        "killzone": "Gallowdark",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-gallowdark-3",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Gallowdark · схема 3",
+      "label_en": "Gallowdark · Map 3",
+      "config": {
+        "pack": "approved2025",
+        "variant": 3,
+        "killzone": "Gallowdark",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-gallowdark-4",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Gallowdark · схема 4",
+      "label_en": "Gallowdark · Map 4",
+      "config": {
+        "pack": "approved2025",
+        "variant": 4,
+        "killzone": "Gallowdark",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-gallowdark-5",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Gallowdark · схема 5",
+      "label_en": "Gallowdark · Map 5",
+      "config": {
+        "pack": "approved2025",
+        "variant": 5,
+        "killzone": "Gallowdark",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-gallowdark-6",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Gallowdark · схема 6",
+      "label_en": "Gallowdark · Map 6",
+      "config": {
+        "pack": "approved2025",
+        "variant": 6,
+        "killzone": "Gallowdark",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-tomb-world-1",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Tomb World · схема 1",
+      "label_en": "Tomb World · Map 1",
+      "config": {
+        "pack": "approved2025",
+        "variant": 1,
+        "killzone": "Tomb World",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-tomb-world-2",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Tomb World · схема 2",
+      "label_en": "Tomb World · Map 2",
+      "config": {
+        "pack": "approved2025",
+        "variant": 2,
+        "killzone": "Tomb World",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-tomb-world-3",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Tomb World · схема 3",
+      "label_en": "Tomb World · Map 3",
+      "config": {
+        "pack": "approved2025",
+        "variant": 3,
+        "killzone": "Tomb World",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-tomb-world-4",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Tomb World · схема 4",
+      "label_en": "Tomb World · Map 4",
+      "config": {
+        "pack": "approved2025",
+        "variant": 4,
+        "killzone": "Tomb World",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-tomb-world-5",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Tomb World · схема 5",
+      "label_en": "Tomb World · Map 5",
+      "config": {
+        "pack": "approved2025",
+        "variant": 5,
+        "killzone": "Tomb World",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-tomb-world-6",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Tomb World · схема 6",
+      "label_en": "Tomb World · Map 6",
+      "config": {
+        "pack": "approved2025",
+        "variant": 6,
+        "killzone": "Tomb World",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-bheta-decima-1",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Bheta-Decima · схема 1",
+      "label_en": "Bheta-Decima · Map 1",
+      "config": {
+        "pack": "approved2025",
+        "variant": 1,
+        "killzone": "Bheta-Decima",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-bheta-decima-2",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Bheta-Decima · схема 2",
+      "label_en": "Bheta-Decima · Map 2",
+      "config": {
+        "pack": "approved2025",
+        "variant": 2,
+        "killzone": "Bheta-Decima",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-bheta-decima-3",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Bheta-Decima · схема 3",
+      "label_en": "Bheta-Decima · Map 3",
+      "config": {
+        "pack": "approved2025",
+        "variant": 3,
+        "killzone": "Bheta-Decima",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-bheta-decima-4",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Bheta-Decima · схема 4",
+      "label_en": "Bheta-Decima · Map 4",
+      "config": {
+        "pack": "approved2025",
+        "variant": 4,
+        "killzone": "Bheta-Decima",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-bheta-decima-5",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Bheta-Decima · схема 5",
+      "label_en": "Bheta-Decima · Map 5",
+      "config": {
+        "pack": "approved2025",
+        "variant": 5,
+        "killzone": "Bheta-Decima",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-killzone-bheta-decima-6",
+      "kind": "killzone",
+      "edition": "2024",
+      "label": "Bheta-Decima · схема 6",
+      "label_en": "Bheta-Decima · Map 6",
+      "config": {
+        "pack": "approved2025",
+        "variant": 6,
+        "killzone": "Bheta-Decima",
+        "summary": "Геометрия схемы — по ссылке источника; изображения не включены."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-team-angel-of-death",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Ангелы смерти",
+      "label_en": "Angels of Death",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "intercessors",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/angel-of-death"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/angel-of-death",
+      "retrieved_at": "2026-10-26T15:31:07.603373+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "4d43a57c4ae60d29a7aabafa9879991fbe4dc785e05ccd3e5811376efb8a113f"
+    },
+    {
+      "code": "2024-wahapedia-team-battleclade",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Боевой клейд",
+      "label_en": "Battleclade",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "battleclade",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/battleclade"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/battleclade",
+      "retrieved_at": "2026-10-26T15:31:03.113823+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "d2e838dba4e38b48da7cf48b7ac9fe10f1113405c4faae8e73a91380e39b0912"
+    },
+    {
+      "code": "2024-wahapedia-team-celestian-insidiants",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Целестинки-инсидианты",
+      "label_en": "Celestian Insidiants",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "celestian-insidiants",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/celestian-insidiants"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/celestian-insidiants",
+      "retrieved_at": "2026-10-26T15:30:40.810065+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "9db481b1f45aa99a3c0932f84fc91956ef245959d06e279fd58a679d6d345464"
+    },
+    {
+      "code": "2024-wahapedia-team-death-korps",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Корпус смерти",
+      "label_en": "Death Korps",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "veteran-guardsmen",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/death-korps"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/death-korps",
+      "retrieved_at": "2026-10-26T15:30:27.613843+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "0316f511e82468891f529801e8958d29b28e00884d49e7e1330a60e6b915916b"
+    },
+    {
+      "code": "2024-wahapedia-team-deathwatch",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Караул Смерти",
+      "label_en": "Deathwatch",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "deathwatch",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/deathwatch"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/deathwatch",
+      "retrieved_at": "2026-10-26T15:30:23.014205+00:00",
+      "rules_version": "Kill Team 3 — January 2026",
+      "content_hash": "b46c3b67baf1a0a0512b109020c76481cef7548f17ed2b092919af555e185697"
+    },
+    {
+      "code": "2024-wahapedia-team-elucidian-starstrider",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Элюцидийские звёздные странники",
+      "label_en": "Elucidian Starstrider",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "elucidian-starstrider",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/elucidian-starstrider"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/elucidian-starstrider",
+      "retrieved_at": "2026-10-26T15:30:18.508501+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "d3061a8a545134630f78f7e84e6de456ca59af430a5102ea251d0556b694b0de"
+    },
+    {
+      "code": "2024-wahapedia-team-exaction-squad",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Отряд экзекуции",
+      "label_en": "Exaction Squad",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "exaction-squad",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/exaction-squad"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/exaction-squad",
+      "retrieved_at": "2026-10-26T15:30:14.082629+00:00",
+      "rules_version": "Kill Team 3 — June 2026",
+      "content_hash": "4ba5f70e9880820234ef0fb8c802aedeb17a50ffab4a1dc395f1d3a1c5323335"
+    },
+    {
+      "code": "2024-wahapedia-team-hunter-clade",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Охотничий клейд",
+      "label_en": "Hunter Clade",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "hunter-clade",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/hunter-clade"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/hunter-clade",
+      "retrieved_at": "2026-10-26T15:29:29.425364+00:00",
+      "rules_version": "Kill Team 3 — January 2026",
+      "content_hash": "4eb3b0f217d464b907700fc5da4dacd1b567a5dd98ff261c41113e0acdba148a"
+    },
+    {
+      "code": "2024-wahapedia-team-imperial-navy-breacher",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Абордажники Имперского флота",
+      "label_en": "Imperial Navy Breachers",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "imperial-navy-breachers",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/imperial-navy-breacher"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/imperial-navy-breacher",
+      "retrieved_at": "2026-10-26T15:29:24.843120+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "2c756bb7942ba70c2f15d2f0ebc30ca89e981ca88c710056a79f5397baa5e6a4"
+    },
+    {
+      "code": "2024-wahapedia-team-inquisitorial-agent",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Агенты Инквизиции",
+      "label_en": "Inquisitorial Agents",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "inquisitorial-agent",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security",
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/inquisitorial-agent"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/inquisitorial-agent",
+      "retrieved_at": "2026-10-26T15:29:20.398432+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "a29b3744015f75c963b263c5c5cf2028d449c9a064cb48df394e1b8a108c9bda"
+    },
+    {
+      "code": "2024-wahapedia-team-kasrkin",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Касркины",
+      "label_en": "Kasrkin",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "kasrkin",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/kasrkin"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/kasrkin",
+      "retrieved_at": "2026-10-26T15:29:15.880194+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "555a765b047bbe3fe2334a400a87737323ca942861cad25f1177aa30c8a4da0e"
+    },
+    {
+      "code": "2024-wahapedia-team-novitiates",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Послушницы",
+      "label_en": "Novitiates",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "novitiates",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/novitiates"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/novitiates",
+      "retrieved_at": "2026-10-26T15:28:49.355358+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "aaa533f74c50797326d2d7d181610185f0fac1fc462d59844ee97d967155e9f3"
+    },
+    {
+      "code": "2024-wahapedia-team-phobos-strike-team",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Ударная группа Фобос",
+      "label_en": "Phobos Strike Team",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "phobos",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/phobos-strike-team"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/phobos-strike-team",
+      "retrieved_at": "2026-10-26T15:28:40.400702+00:00",
+      "rules_version": "Kill Team 3 — November 2025",
+      "content_hash": "61f27fc8b8a1a796ac64e2ff36c0b4e6c52aff7d7a1795006e40ddbc3ecff4b6"
+    },
+    {
+      "code": "2024-wahapedia-team-ratlings",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Ратлинги",
+      "label_en": "Ratling",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "ratling",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/ratlings"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/ratlings",
+      "retrieved_at": "2026-10-26T15:28:31.554896+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "68cbfc946ef6645b149319c5442e12d4fbb5be837d5eeaa466b2fc2a4ad61079"
+    },
+    {
+      "code": "2024-wahapedia-team-sanctifiers",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Освятители",
+      "label_en": "Sanctifiers",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "sanctifiers",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/sanctifiers"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/sanctifiers",
+      "retrieved_at": "2026-10-26T15:28:22.704016+00:00",
+      "rules_version": "Kill Team 3 — February 2026",
+      "content_hash": "4cc0529683e70638ae3cfa71dc53bd25de13eb6a34e0d7683b14c2074deacf10"
+    },
+    {
+      "code": "2024-wahapedia-team-scout-squad",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Отряд скаутов",
+      "label_en": "Scout Squad",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "scouts",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/scout-squad"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/scout-squad",
+      "retrieved_at": "2026-10-26T15:28:18.206091+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "1b79fc2a10da2ee338d71eb33ee4fc375e49b8ee264e4aa83a1f8064ffb4d2bd"
+    },
+    {
+      "code": "2024-wahapedia-team-spectre-squad",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Отряд Спектр",
+      "label_en": "Spectre Squad",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "spectre-squad",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/spectre-squad"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/spectre-squad",
+      "retrieved_at": "2026-10-26T15:28:13.773085+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "c21731056393eca16d859e3971bc280d15ce5bfc82c6a2d39c6594b48b127d41"
+    },
+    {
+      "code": "2024-battlekit-team-strike-force-variel",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Не проверено: Ударная группа Вариэля",
+      "label_en": "Strike Force Variel",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "strike-force-variel",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [],
+        "needs_review": [
+          "Нет публичной страницы команды в проверенном sitemap Wahapedia; архетипы не подтверждены"
+        ]
+      },
+      "active": false,
+      "verification": "unverified",
+      "source": "battlekit",
+      "source_url": "https://battlekit.killteam.ru/",
+      "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+      "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+      "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+    },
+    {
+      "code": "2024-wahapedia-team-tempestus-aquilons",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Аквилоны Темпестус",
+      "label_en": "Tempestus Aquilons",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "tempestus-aquilons",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/tempestus-aquilons"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/tempestus-aquilons",
+      "retrieved_at": "2026-10-26T15:28:09.279244+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "b3f5ec56dc40130b0d1ec8e0812cf0854a2258a96ccf5e7219e9165a1e6bddb6"
+    },
+    {
+      "code": "2024-wahapedia-team-wolf-scouts",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Волчьи скауты",
+      "label_en": "Wolf Scouts",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "wolf-scout",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/wolf-scouts"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/wolf-scouts",
+      "retrieved_at": "2026-10-26T15:27:51.578750+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "e6d74a222c0cd9f6bb48239b674b50be9c1ac21f0fe5caf6116c256fcf4c1f04"
+    },
+    {
+      "code": "2024-wahapedia-team-blooded",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Окровавленные",
+      "label_en": "Blooded",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "blooded",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/blooded"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/blooded",
+      "retrieved_at": "2026-10-26T15:30:54.356657+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "e495a33b57db81205256e7158622610a073c14c2b4bfff652ef789b8540267e1"
+    },
+    {
+      "code": "2024-wahapedia-team-chaos-cult",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Культ Хаоса",
+      "label_en": "Chaos Cult",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "chaos-cult",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/chaos-cult"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/chaos-cult",
+      "retrieved_at": "2026-10-26T15:30:36.446049+00:00",
+      "rules_version": "Kill Team 3 — April 2025",
+      "content_hash": "18fca660dfd873d18fa7bd1911e6bc43025900033b3d6baadeaad7abc7e79c79"
+    },
+    {
+      "code": "2024-wahapedia-team-fellgor-ravager",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Опустошители Феллгор",
+      "label_en": "Fellgor Ravagers",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "fellgor-ravagers",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/fellgor-ravager"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/fellgor-ravager",
+      "retrieved_at": "2026-10-26T15:30:00.656851+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "ee7f11385ea9a99522a12022a5fa7274ce42e3b95f2246b194159f71772d489a"
+    },
+    {
+      "code": "2024-wahapedia-team-gellerpox-infected",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Заражённые Геллерпокс",
+      "label_en": "Gellerpox Infected",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "gellerpox",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/gellerpox-infected"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/gellerpox-infected",
+      "retrieved_at": "2026-10-26T15:29:56.166522+00:00",
+      "rules_version": "Kill Team 3 — October 2025",
+      "content_hash": "b421d96d4e4824acb4ded80304d1d9d9682d19819911433f8263d26f13ba2a65"
+    },
+    {
+      "code": "2024-wahapedia-team-goremonger",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Кровомесы",
+      "label_en": "Goremongers",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "goremongers",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/goremonger"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/goremonger",
+      "retrieved_at": "2026-10-26T15:29:51.795767+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "59213c27cf1edbefc0c1fcb8fcf6970802c9bbb9c1ef1983e3f90646c9dabd09"
+    },
+    {
+      "code": "2024-wahapedia-team-legionary",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Легионеры",
+      "label_en": "Legionary",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "legionary",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/legionary"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/legionary",
+      "retrieved_at": "2026-10-26T15:29:07.107687+00:00",
+      "rules_version": "Kill Team 3 — October 2025",
+      "content_hash": "4e772e7898ae025a8aaa6d347d51e10cea2a9c829cdfae58a4ba99942bbc29ce"
+    },
+    {
+      "code": "2024-wahapedia-team-murderwing",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Крыло убийства",
+      "label_en": "Murderwing",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "murderwing",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/murderwing"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/murderwing",
+      "retrieved_at": "2026-10-26T15:28:58.307920+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "c4d306d164e5d46823d0e1abce117ac1a9b4e93355a084b93da5bd2f2763e304"
+    },
+    {
+      "code": "2024-wahapedia-team-nemesis-claw",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Коготь Немезиды",
+      "label_en": "Nemesis Claw",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "nemesis-claw",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/nemesis-claw"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/nemesis-claw",
+      "retrieved_at": "2026-10-26T15:28:53.788413+00:00",
+      "rules_version": "Kill Team 3 — June 2026",
+      "content_hash": "8aeaeacd46ac7fbfb539a7d09b410025936918e1daae20eda3e2caa3f0e7e6b4"
+    },
+    {
+      "code": "2024-wahapedia-team-plague-marines",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Чумные десантники",
+      "label_en": "Plague Marines",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "plague-marines",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/plague-marines"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/plague-marines",
+      "retrieved_at": "2026-10-26T15:28:35.934959+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "d8199caa984f739237300293b1a941b1d2a9d579e3035b590e498955ca182c62"
+    },
+    {
+      "code": "2024-wahapedia-team-warpcoven",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Ковен искажения",
+      "label_en": "Warpcoven",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "warpcoven",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/warpcoven"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/warpcoven",
+      "retrieved_at": "2026-10-26T15:27:56.080417+00:00",
+      "rules_version": "Kill Team 3 — January 2026",
+      "content_hash": "2e76e321e8354b60510193425004bc48a34d69963d3911b266fa96b51a2c74d7"
+    },
+    {
+      "code": "2024-wahapedia-team-blades-of-khaine",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Клинки Кхейна",
+      "label_en": "Blades of Khaine",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "blades-of-khaine",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "conditional_archetypes": {
+          "dire_avenger": "Security",
+          "howling_banshee": "Recon",
+          "striking_scorpion": "Infiltration"
+        },
+        "archetype_note": "Всегда Seek & Destroy; дополнительно архетип наиболее многочисленного аспекта. При равенстве можно выбрать любой из лидирующих аспектов.",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security",
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/blades-of-khaine"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/blades-of-khaine",
+      "retrieved_at": "2026-10-26T15:30:58.742073+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "a4156ae3973638ddfc02f137a75e0d445f0ec93a5872aebe73b0a1b970a4bedd"
+    },
+    {
+      "code": "2024-wahapedia-team-brood-brother",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Братья выводка",
+      "label_en": "Brood Brother",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "brood-brothers",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/brood-brother"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/brood-brother",
+      "retrieved_at": "2026-10-26T15:30:49.884565+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "6c033da1334356193ffdaf4f7938b1ac3616152c2200b142442babf92ae9e9b2"
+    },
+    {
+      "code": "2024-wahapedia-team-canoptek-circle",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Круг Каноптек",
+      "label_en": "Canoptek Circle",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "canoptek",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/canoptek-circle"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/canoptek-circle",
+      "retrieved_at": "2026-10-26T15:30:45.344038+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "47aca6f2a8041151f9b5e89bf9a027246dd214c51f067631f90096435fec44e1"
+    },
+    {
+      "code": "2024-wahapedia-team-corsair-voidscarred",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Корсары Пустотные шрамы",
+      "label_en": "Corsair Voidscarred",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "corsair-voidscarred",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/corsair-voidscarred"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/corsair-voidscarred",
+      "retrieved_at": "2026-10-26T15:30:32.005652+00:00",
+      "rules_version": "Kill Team 3 — January 2026",
+      "content_hash": "7f43d1ed4857ececf944a3bdb46735300b9b5083ac075aa275f6e8aef622ab84"
+    },
+    {
+      "code": "2024-wahapedia-team-exodite-dragon-masters",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Экзодиты — повелители драконов",
+      "label_en": "Exodite Dragon Master",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "exodite-dragon-master",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/exodite-dragon-masters"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/exodite-dragon-masters",
+      "retrieved_at": "2026-10-26T15:30:09.590637+00:00",
+      "rules_version": "Kill Team 3 — July 2026",
+      "content_hash": "9e3c50e83aaf58d8ab96e232049d38e53dd0defaf7ab5c91617c132155e811ad"
+    },
+    {
+      "code": "2024-wahapedia-team-farstalker-kinband",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Родичи дальних странствий",
+      "label_en": "Farstalker Kinband",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "farstalker-kinband",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/farstalker-kinband"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/farstalker-kinband",
+      "retrieved_at": "2026-10-26T15:30:05.092559+00:00",
+      "rules_version": "Kill Team 3 — July 2026",
+      "content_hash": "422e95015440d7269fb1bd2e07c193dd808e072f6b9ead424de21e67b8d0548f"
+    },
+    {
+      "code": "2024-wahapedia-team-hand-of-the-archon",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Длань архонта",
+      "label_en": "Hand of the Archon",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "kabalite",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/hand-of-the-archon"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/hand-of-the-archon",
+      "retrieved_at": "2026-10-26T15:29:47.393048+00:00",
+      "rules_version": "Kill Team 3 — January 2026",
+      "content_hash": "4b8b144df0b32adb12d5fccb520f8171e1ad0b4620f6b399c8d6bf74e4785631"
+    },
+    {
+      "code": "2024-wahapedia-team-hearthkyn-salvager",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Спасатели Харткин",
+      "label_en": "Hearthkyn Salvager",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "hearthkyn-salvager",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/hearthkyn-salvager"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/hearthkyn-salvager",
+      "retrieved_at": "2026-10-26T15:29:42.923000+00:00",
+      "rules_version": "Kill Team 3 — April 2026",
+      "content_hash": "61a539dcc7862101d835846f065d00852f4c33e327183ed008ae13a15b747e90"
+    },
+    {
+      "code": "2024-wahapedia-team-hernkyn-yaegir",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Егеря Хернкин",
+      "label_en": "Hernkyn Yaegir",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "yaegirs",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/hernkyn-yaegir"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/hernkyn-yaegir",
+      "retrieved_at": "2026-10-26T15:29:38.374027+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "c1ac98f72cd613f89879cde2eafc6ac58265f2c23cc2ce01d9531c9b931e21bc"
+    },
+    {
+      "code": "2024-wahapedia-team-hierotek-circle",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Круг Иеротек",
+      "label_en": "Hierotek Circle",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "hierotek",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Security",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/hierotek-circle"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/hierotek-circle",
+      "retrieved_at": "2026-10-26T15:29:33.953029+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "7559c1dad381ca0775d120d9b6e114b336bae04233682989d6ae842fae1a5dbd"
+    },
+    {
+      "code": "2024-wahapedia-team-kommandos",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Коммандос",
+      "label_en": "Kommando",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "kommandos",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/kommandos"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/kommandos",
+      "retrieved_at": "2026-10-26T15:29:11.490238+00:00",
+      "rules_version": "Kill Team 3 — June 2026",
+      "content_hash": "9a9e7879d7e12fa42fec9efb4398f57423fa9d5f9c6b8ea7f0d4857cd05d7be6"
+    },
+    {
+      "code": "2024-wahapedia-team-mandrakes",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Мандрагоры",
+      "label_en": "Mandrakes",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "mandrakes",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/mandrakes"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/mandrakes",
+      "retrieved_at": "2026-10-26T15:29:02.689613+00:00",
+      "rules_version": "Kill Team 3 — January 2026",
+      "content_hash": "e940787c56c3f9e18d90cff401f902779612d898b3e50fbd0938437cab746f6d"
+    },
+    {
+      "code": "2024-wahapedia-team-pathfinders",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Следопыты",
+      "label_en": "Pathfinders",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "pathfinders",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/pathfinders"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/pathfinders",
+      "retrieved_at": "2026-10-26T15:28:44.950053+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "795e09e6712ea786ed1c5e1335bdb5c3738c7ce3f8d34dae6e1618f8e15c4285"
+    },
+    {
+      "code": "2024-wahapedia-team-raveners",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Пожиратели",
+      "label_en": "Raveners",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "raveners",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/raveners"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/raveners",
+      "retrieved_at": "2026-10-26T15:28:27.121234+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "a995c5abb60d31c468b5b7d8a96db593336f1729167a3dd1510c4c7b3d3c0cfc"
+    },
+    {
+      "code": "2024-wahapedia-team-vespid-stingwings",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Жалокрылы Веспид",
+      "label_en": "Vespid Stingwing",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "vespid-stingwings",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/vespid-stingwings"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/vespid-stingwings",
+      "retrieved_at": "2026-10-26T15:28:04.850600+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "a31a29d4465f755bfc36153780f74ebc3f9a63fad374f141cfc48fcb565bafe9"
+    },
+    {
+      "code": "2024-wahapedia-team-void-dancer-troupe",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Труппа танцоров пустоты",
+      "label_en": "Void Dancer Troupe",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "void-dancer-troupe",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/void-dancer-troupe"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/void-dancer-troupe",
+      "retrieved_at": "2026-10-26T15:28:00.479497+00:00",
+      "rules_version": "Kill Team 3 — June 2026",
+      "content_hash": "1755a61f105ce105ad77c3a90dc71d4fe0a06546326f27e4739df7c5d07cd4a1"
+    },
+    {
+      "code": "2024-wahapedia-team-wrecka-krew",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Банда крушителей",
+      "label_en": "Wrecka Krew",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "wrecka-krew",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Security"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/wrecka-krew"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/wrecka-krew",
+      "retrieved_at": "2026-10-26T15:27:47.197943+00:00",
+      "rules_version": "Kill Team 3 — June 2026",
+      "content_hash": "3599c64f9ba895ce9edf51590176615bdcbcbb8a2f41bfbcead073799a77c06e"
+    },
+    {
+      "code": "2024-wahapedia-team-wyrmblade",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Клинок змея",
+      "label_en": "Wyrmblade",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "wyrmblade",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Seek & Destroy",
+          "Infiltration"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/wyrmblade"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/wyrmblade",
+      "retrieved_at": "2026-10-26T15:27:42.786955+00:00",
+      "rules_version": "Kill Team 3 — November 2025",
+      "content_hash": "4b4703c038ff714508952f4ac3b0e19101c30d87814ab06d18712f4dc336eb9e"
+    },
+    {
+      "code": "2024-wahapedia-team-xv26-stealth-battlesuits",
+      "kind": "team",
+      "edition": "2024",
+      "label": "Стелс-костюмы XV26",
+      "label_en": "XV26 Stealth Battlesuit",
+      "config": {
+        "pack": "approved2025",
+        "battlekit_slug": "xv26-stealth-battlesuit",
+        "battlekit_evidence": {
+          "source": "battlekit",
+          "source_url": "https://battlekit.killteam.ru/",
+          "retrieved_at": "2026-10-26T15:17:48.447186+00:00",
+          "rules_version": "Killteam 3 BattleKit — дата версии данных не указана",
+          "content_hash": "d9509743ef7898b2914fb6a9aefecc49b527990d36772f24a50881e23d10dc14"
+        },
+        "translation": "Редакторское русское название; оригинал EN является идентификатором названия",
+        "archetypes": [
+          "Infiltration",
+          "Recon"
+        ],
+        "faction_rules_url": "https://wahapedia.ru/kill-team3/kill-teams/xv26-stealth-battlesuits"
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/kill-teams/xv26-stealth-battlesuits",
+      "retrieved_at": "2026-10-26T15:27:38.361324+00:00",
+      "rules_version": "Kill Team 3 — August 2026",
+      "content_hash": "3877a3d20e625d21e17c8c63e725f4cd3aa80ff004c85d7f01b2879f6e225958"
+    },
+    {
+      "code": "2024-wahapedia-rule-strategy",
+      "kind": "rule",
+      "edition": "2024",
+      "label": "Стратегическая фаза",
+      "label_en": "Стратегическая фаза",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Инициатива, Ready, затем чередование стратегических гамбитов."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/core-rules/",
+      "retrieved_at": "2026-10-26T15:17:52.436939+00:00",
+      "rules_version": "Core Rules — June 2026",
+      "content_hash": "f8857ef9a9e621465d879614534111f3ac20d66f926b91fc431e1951e26a6438"
+    },
+    {
+      "code": "2024-wahapedia-rule-firefight",
+      "kind": "rule",
+      "edition": "2024",
+      "label": "Фаза перестрелки",
+      "label_en": "Фаза перестрелки",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Чередуйте активации готовых оперативников, затем противодействие по условиям правил."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/core-rules/",
+      "retrieved_at": "2026-10-26T15:17:52.436939+00:00",
+      "rules_version": "Core Rules — June 2026",
+      "content_hash": "f8857ef9a9e621465d879614534111f3ac20d66f926b91fc431e1951e26a6438"
+    },
+    {
+      "code": "2024-wahapedia-rule-control",
+      "kind": "rule",
+      "edition": "2024",
+      "label": "Контроль",
+      "label_en": "Контроль",
+      "config": {
+        "pack": "approved2025",
+        "summary": "Для определения контроля маркера сравнивается сумма APL оспаривающих оперативников. Сверяйтесь с полным правилом и исключениями команды."
+      },
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/core-rules/",
+      "retrieved_at": "2026-10-26T15:17:52.436939+00:00",
+      "rules_version": "Core Rules — June 2026",
+      "content_hash": "f8857ef9a9e621465d879614534111f3ac20d66f926b91fc431e1951e26a6438"
+    }
+  ],
+  "game_sequence": [
+    {
+      "code": "2024-wahapedia-sequence-teams",
+      "edition": "2024",
+      "phase": "Подготовка поля",
+      "phase_order": 0,
+      "step_order": 0,
+      "label": "Выбрать команды",
+      "description": "Каждый игрок выбирает kill team.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-terrain",
+      "edition": "2024",
+      "phase": "Подготовка поля",
+      "phase_order": 0,
+      "step_order": 1,
+      "label": "Подготовить поле",
+      "description": "Выберите killzone, расставьте террейн и согласуйте его типы.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-crit",
+      "edition": "2024",
+      "phase": "Подготовка поля",
+      "phase_order": 0,
+      "step_order": 2,
+      "label": "Выбрать Crit Op",
+      "description": "Определите общую критическую операцию и поставьте маркеры. Кроме Bheta-Decima маркеры размещаются на полу killzone.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-roll",
+      "edition": "2024",
+      "phase": "Подготовка поля",
+      "phase_order": 0,
+      "step_order": 3,
+      "label": "Первый бросок",
+      "description": "Победитель предварительного roll-off назначает инициативу.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-zones",
+      "edition": "2024",
+      "phase": "Подготовка поля",
+      "phase_order": 0,
+      "step_order": 4,
+      "label": "Выбрать зоны",
+      "description": "Игрок с инициативой выбирает зону высадки; второй получает другую и карту инициативы Re-roll.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-operatives",
+      "edition": "2024",
+      "phase": "Выбор оперативников",
+      "phase_order": 1,
+      "step_order": 0,
+      "label": "Выбрать состав",
+      "description": "Тайно выберите оперативников по правилам команды, затем одновременно раскройте составы.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-equipment",
+      "edition": "2024",
+      "phase": "Выбор оперативников",
+      "phase_order": 1,
+      "step_order": 1,
+      "label": "Выбрать снаряжение",
+      "description": "Тайно выберите до четырёх разных опций снаряжения, затем одновременно раскройте.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-cp",
+      "edition": "2024",
+      "phase": "Выбор оперативников",
+      "phase_order": 1,
+      "step_order": 2,
+      "label": "Получить CP",
+      "description": "Каждый начинает с 2 CP.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-tac",
+      "edition": "2024",
+      "phase": "Выбор оперативников",
+      "phase_order": 1,
+      "step_order": 3,
+      "label": "Выбрать Tac Op",
+      "description": "Тайно выберите одну тактическую операцию из доступных команде архетипов. Раскройте в указанный на карточке момент.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-items",
+      "edition": "2024",
+      "phase": "Расстановка",
+      "phase_order": 2,
+      "step_order": 0,
+      "label": "Выставить предметы",
+      "description": "По очереди, начиная с инициативы, выставляйте отдельные предметы предбоевого снаряжения, не целые опции.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-deploy",
+      "edition": "2024",
+      "phase": "Расстановка",
+      "phase_order": 2,
+      "step_order": 1,
+      "label": "Выставить оперативников",
+      "description": "По очереди, начиная с инициативы, выставляйте треть состава с округлением вверх, целиком в своей зоне и с приказом Conceal.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-initiative",
+      "edition": "2024",
+      "phase": "Стратегическая фаза каждого поворота",
+      "phase_order": 3,
+      "step_order": 0,
+      "label": "Определить инициативу",
+      "description": "В каждом повороте, включая первый, бросьте кубики без переброса ничьей. Правила команды применяются до карт, начиная с проигрывающего. Затем начиная с проигрывающего поочерёдно играйте карты инициативы или пасуйте до двух последовательных пасов. Re-roll заменяет предыдущие модификации. Победитель назначает инициативу. При ничьей побеждает тот, у кого сейчас нет инициативы; проигравший бросок получает карту ± номер поворота, кроме четвёртого.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-ready",
+      "edition": "2024",
+      "phase": "Стратегическая фаза каждого поворота",
+      "phase_order": 3,
+      "step_order": 1,
+      "label": "Ready",
+      "description": "Подготовьте оперативников. Каждый получает 1 CP; со второго поворота игрок без инициативы получает 2 CP вместо 1. Неизрасходованные CP сохраняются.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/core-rules/",
+      "retrieved_at": "2026-10-26T15:17:52.436939+00:00",
+      "rules_version": "Core Rules — June 2026",
+      "content_hash": "f8857ef9a9e621465d879614534111f3ac20d66f926b91fc431e1951e26a6438"
+    },
+    {
+      "code": "2024-wahapedia-sequence-gambit",
+      "edition": "2024",
+      "phase": "Стратегическая фаза каждого поворота",
+      "phase_order": 3,
+      "step_order": 2,
+      "label": "Gambit и основная цель",
+      "description": "Чередуйте стратегические гамбиты начиная с инициативы до двух пасов подряд. Каждый конкретный гамбит — один раз за поворот. В первом повороте тайно зафиксируйте основную цель Crit, Tac или Kill как стратегический гамбит.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-activate",
+      "edition": "2024",
+      "phase": "Фаза перестрелки",
+      "phase_order": 4,
+      "step_order": 0,
+      "label": "Активировать оперативников",
+      "description": "По очереди начиная с инициативы активируйте готового оперативника: выберите приказ и выполните действия в пределах AP. После активации оперативник считается израсходованным.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/core-rules/",
+      "retrieved_at": "2026-10-26T15:17:52.436939+00:00",
+      "rules_version": "Core Rules — June 2026",
+      "content_hash": "f8857ef9a9e621465d879614534111f3ac20d66f926b91fc431e1951e26a6438"
+    },
+    {
+      "code": "2024-wahapedia-sequence-counteract",
+      "edition": "2024",
+      "phase": "Фаза перестрелки",
+      "phase_order": 4,
+      "step_order": 1,
+      "label": "Противодействие",
+      "description": "Когда все свои уже израсходованы, можно противодействовать израсходованным оперативником с Engage: действие за 1 AP, не Guard, максимум 2 дюйма перемещения. Каждый оперативник — один раз за поворот. Фаза заканчивается, когда все оперативники израсходованы.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/core-rules/",
+      "retrieved_at": "2026-10-26T15:17:52.436939+00:00",
+      "rules_version": "Core Rules — June 2026",
+      "content_hash": "f8857ef9a9e621465d879614534111f3ac20d66f926b91fc431e1951e26a6438"
+    },
+    {
+      "code": "2024-wahapedia-sequence-vp",
+      "edition": "2024",
+      "phase": "Подсчёт в конце поворота",
+      "phase_order": 5,
+      "step_order": 0,
+      "label": "Начислить VP",
+      "description": "Проверьте Crit Op и выбранный Tac Op: соблюдайте их моменты начисления и ограничения. За каждое направление максимум 6 VP за бой до бонуса. Kill grade определяется текущими выведенными из строя врагами; вернувшегося оперативника нужно вычесть. Условные действия и контроль подтверждают сами игроки.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-next",
+      "edition": "2024",
+      "phase": "Подсчёт в конце поворота",
+      "phase_order": 5,
+      "step_order": 1,
+      "label": "Следующий поворот",
+      "description": "Сохраните CP и заметки, затем перейдите к следующему повороту; первый поворот не пропускается, всего их четыре.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-four",
+      "edition": "2024",
+      "phase": "Завершение боя",
+      "phase_order": 6,
+      "step_order": 0,
+      "label": "Доиграть четыре поворота",
+      "description": "Даже если у одной стороны больше нет оперативников, другая доигрывает оставшиеся повороты.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-kill-end",
+      "edition": "2024",
+      "phase": "Завершение боя",
+      "phase_order": 6,
+      "step_order": 1,
+      "label": "Дополнительный Kill VP",
+      "description": "Игрок с большим kill grade в конце боя получает ещё 1 VP Kill Op; при равенстве никто.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-primary-end",
+      "edition": "2024",
+      "phase": "Завершение боя",
+      "phase_order": 6,
+      "step_order": 2,
+      "label": "Раскрыть основную цель",
+      "description": "Одновременно раскройте основные цели. Бонус равен половине заработанных VP выбранного направления с округлением вверх.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    },
+    {
+      "code": "2024-wahapedia-sequence-result",
+      "edition": "2024",
+      "phase": "Завершение боя",
+      "phase_order": 6,
+      "step_order": 3,
+      "label": "Определить результат",
+      "description": "Больше итоговых VP — победа, равенство — ничья. В KILLSTASS второй игрок подтверждает результат перед включением в статистику.",
+      "active": true,
+      "verification": "verified",
+      "source": "wahapedia",
+      "source_url": "https://wahapedia.ru/kill-team3/the-rules/approved-ops-2025/",
+      "retrieved_at": "2026-10-26T15:20:54.702111+00:00",
+      "rules_version": "Approved Ops 2025 — August 2026",
+      "content_hash": "e2e0c3e0a5cb141d6f2e59b54c15de04d75d6d943fd2e1110baaf46332f4bfee"
+    }
+  ]
+}

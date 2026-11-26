@@ -1,0 +1,282 @@
+{
+  "source": "https://astartes.space/factions-kill-team-2024/",
+  "note": "Images resized; rights belong to their respective owners. See 26-v1.15.md.",
+  "items": [
+    {
+      "slug": "angels-of-death",
+      "name": "Angels of Death",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Anges-de-la-Mort.png?ssl=1",
+      "source_sha256": "cdef7598a1bb9b9cb67e01c07c64a74ad6c9ece73eb460558450692b062e30a6"
+    },
+    {
+      "slug": "tempestus-aquilons",
+      "name": "Tempestus Aquilons",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Aquilons-du-Tempestus.png?ssl=1",
+      "source_sha256": "34a1088ebeccc5bde458c7eef75a25c7671ba20fde3509ce4751f8076b4b6603"
+    },
+    {
+      "slug": "wrecka-krew",
+      "name": "Wrecka Krew",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2026/02/bande-bouzilleurs.png?ssl=1",
+      "source_sha256": "e561c37b15d59c8160e8e3abf4b8f0d0cf155070ea589767e711909bdfcb7569"
+    },
+    {
+      "slug": "celestian-insidiants",
+      "name": "Celestian Insidiants",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2026/02/celeste-insidiatrice.png?ssl=1",
+      "source_sha256": "76248490e6a5738f8f8a7efff4085726c818b3062e608734a1e208793a36373c"
+    },
+    {
+      "slug": "canoptek-circle",
+      "name": "Canoptek Circle",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2026/02/cercle-canoptek.png?ssl=1",
+      "source_sha256": "d107b9bf461af4df8836b692ad34b43453175c9b2981e05a84c0b21a1f807c56"
+    },
+    {
+      "slug": "hierotek-circle",
+      "name": "Hirotek Circle",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Cercle-Hiérotek.png?ssl=1",
+      "source_sha256": "cabd233684bcd04e41ea25b77c7b26d2223e484164cfa09d445b8399f182a711"
+    },
+    {
+      "slug": "pathfinders",
+      "name": "Pathfinders",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Cibleurs.png?ssl=1",
+      "source_sha256": "bac6d9e654a26baa7882a7b05b9762f5961b0ef97b14afe7ad95748e931c49bc"
+    },
+    {
+      "slug": "hunter-clade",
+      "name": "Hunter Clade",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Clade-de-Chasse.png?ssl=1",
+      "source_sha256": "fb48734da1ff73f7a43a30cbfe18ffc0e6a257fa17c81b44f9d9b6b557c67d37"
+    },
+    {
+      "slug": "corsair-voidscarred",
+      "name": "Corsair Voidcarred",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Cordaires-neanti.png?ssl=1",
+      "source_sha256": "e4e3db34fd9c230cbb5dea7440335a78034f7bf22b031f61235874ac5526dd3e"
+    },
+    {
+      "slug": "elucidian-starstriders",
+      "name": "Elucidian Starsiders",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Corstellaires-Elucia.png?ssl=1",
+      "source_sha256": "3ce036762540d66fde5e6f2b05b109011d37b0dc7a00a91d22c7ef60292f02ef"
+    },
+    {
+      "slug": "warpcoven",
+      "name": "Warpocoven",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Coterie-du-Warp.png?ssl=1",
+      "source_sha256": "14400b94ca77deb875776e708cf10ff29703b859a534b10086f00577712cd4db"
+    },
+    {
+      "slug": "chaos-cult",
+      "name": "Chaos Cult",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Culte-du-Chaos.png?ssl=1",
+      "source_sha256": "970ebf6bbc0af8ac1b5d9f9d66a470bfa88ce69a08e848edc55f9d4cb4ecacdf"
+    },
+    {
+      "slug": "void-dancer-troupe",
+      "name": "Void-Dancer Troupe",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Danseurs-de-la-Toile-1.png?ssl=1",
+      "source_sha256": "8e1d77e78f11f43984642bf20c650c93dcec204571d069dc8301bf0d7494b5ee"
+    },
+    {
+      "slug": "deathwatch",
+      "name": "Deathwatch",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2026/02/Deathwatch.png?ssl=1",
+      "source_sha256": "f476211eae24de34c2a844de3ebc1229c321d33e441776bcf7e71be0e7e1a730"
+    },
+    {
+      "slug": "death-korps",
+      "name": "Death Korps",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Death-Korps.png?ssl=1",
+      "source_sha256": "3b0dc7704eadbea1af9156d8c26811fbe9d55cadd393a89fd400edea927e10d4"
+    },
+    {
+      "slug": "phobos-strike-team",
+      "name": "Phobos Strike Team",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Equipe-attaque-Phobos.png?ssl=1",
+      "source_sha256": "870babe8b7ba7b4d46c5cd9428b91b883858d2be8f1a829ad93dc9531346d512"
+    },
+    {
+      "slug": "exaction-squad",
+      "name": "Exaction Squad",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Equipe-extraction.png?ssl=1",
+      "source_sha256": "9d2c81f8a47d8fa94d1a8044550485227aea7f01bfb728031c63639c774c1a45"
+    },
+    {
+      "slug": "scout-squad",
+      "name": "Scout Squad",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Escouade-Scout.png?ssl=1",
+      "source_sha256": "505b54020cf21ad18ccae8bbd3a3e5461611697dacc4e3d1a032e3f7df2bdcea"
+    },
+    {
+      "slug": "spectre-squad",
+      "name": "Spectre Squad",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2026/06/Escouade-spectre.png?ssl=1",
+      "source_sha256": "56d88df2c5a4406ecfa3f5d49a1f26eba5d9cc4f392afcd6d94e1764ba8c6679"
+    },
+    {
+      "slug": "xv26-stealth-battlesuits",
+      "name": "XV26 Stealth Battlesuits",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2026/02/Tau.png?ssl=1",
+      "source_sha256": "b4c94990c85bc1e5bf227908659c92c80a7e20036ef1e68631139f800810b42c"
+    },
+    {
+      "slug": "vespid-stingwings",
+      "name": "Vespid Stingwings",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Frelon-Vespides.png?ssl=1",
+      "source_sha256": "16680ca66ee0bee282d0bb8b0084444844de9eac66821612f20eacbeab2a542c"
+    },
+    {
+      "slug": "brood-brothers",
+      "name": "Brood Brothers",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Freres-du-Couvain.png?ssl=1",
+      "source_sha256": "9f2aab5ef99c5670ca8d374bc4dcee8b951f45fe49028ea6f738c6cd001572c4"
+    },
+    {
+      "slug": "nemesis-claw",
+      "name": "Nemesis Claw",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Griffe-Nemesis.png?ssl=1",
+      "source_sha256": "97b067858616544f6e255c200b0d38061c049d2ca1b7e11a586c54025bf5d36d"
+    },
+    {
+      "slug": "blooded",
+      "name": "Blooded",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Impenitents.png?ssl=1",
+      "source_sha256": "53dc04c94a03af17803e4ba18d2e252170f907eae2d865eaedc69ddd0289e0f1"
+    },
+    {
+      "slug": "kasrkin",
+      "name": "Kasrkin",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Kasrkins.png?ssl=1",
+      "source_sha256": "fd1b98bf2d3180e3f43bb9e75fa71a2c11a7901acd01761b6d0c5ec9f5ca1ea4"
+    },
+    {
+      "slug": "kommandos",
+      "name": "Kommandos",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Commandos.png?ssl=1",
+      "source_sha256": "010fac3e18fb4b9d5655425bcce496bf517348c02566b4a07772a35c0ebd65aa"
+    },
+    {
+      "slug": "wyrmblade",
+      "name": "Wyrmblade",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Lame-de-Guivre.png?ssl=1",
+      "source_sha256": "50653a224d2067e625fce7f0268efd5f99c7fe950791f85b5d74a1ef779f6294"
+    },
+    {
+      "slug": "blades-of-khaine",
+      "name": "Blades of Khaine",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Lame-de-Khaine.png?ssl=1",
+      "source_sha256": "6c523c688096d880fd13fe327d998caeac1aa28b3c67ff25ffcb83c09e6efe42"
+    },
+    {
+      "slug": "legionaries",
+      "name": "Legionaries",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Legionnaires.png?ssl=1",
+      "source_sha256": "b3bba56d45218db3720abb61c0590ed2fc8081d6f27bed95d5507f636eab19c1"
+    },
+    {
+      "slug": "hand-of-the-archon",
+      "name": "Hand of the Archon",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Main-de-lArchonte.png?ssl=1",
+      "source_sha256": "d99878aa9349e6d854e1ca372f8125ba5d15d28b2ec78684aaeada873c1a6105"
+    },
+    {
+      "slug": "mandrakes",
+      "name": "Mandrakes",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Mandragores.png?ssl=1",
+      "source_sha256": "f98c2076ab5ee98d49d0b71498d310db92d4c0df1477dc3defc8b0d6f58b0ad2"
+    },
+    {
+      "slug": "plague-marines",
+      "name": "Plague Marines",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/11/Marines-peste.png?ssl=1",
+      "source_sha256": "42fcac5d335bf9e83fbd9a4f105e3ce98252d78758570e55877a1f90b4a51999"
+    },
+    {
+      "slug": "murderwings",
+      "name": "Murderwing",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2026/02/meutrescadre.png?ssl=1",
+      "source_sha256": "1bd57e888b2fd4c18eeca9ae4b127f45d81eba539bb2cd0dddd8d152497a6b32"
+    },
+    {
+      "slug": "goremongers",
+      "name": "Goremongers",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2026/02/munifisangs.png?ssl=1",
+      "source_sha256": "2bb2e65b4a7fca6ff20799ebcba9eaf7a42831d090f627cd43c61e4d58ff965e"
+    },
+    {
+      "slug": "novitiates",
+      "name": "Novitiates",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Novices.png?ssl=1",
+      "source_sha256": "ff4accc3d15b4dcd9c5b08c4cbbc235934060db08a66197831bd67f69e9db073"
+    },
+    {
+      "slug": "farstalker-kinband",
+      "name": "Farstalker Kinband",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Parente-exorodeurs.png?ssl=1",
+      "source_sha256": "3e6fd1d9bada361bdf16c52cc5a68b65c367999dfcf8335d4eb6b6f97fd0ea42"
+    },
+    {
+      "slug": "ratlings",
+      "name": "Ratlings",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2026/02/Ratlings.png?ssl=1",
+      "source_sha256": "5a3a71230f8d52368d77bae61ded6e3ffe12daf852b318d7a97473b61c555749"
+    },
+    {
+      "slug": "fellgor-ravagers",
+      "name": "Fellgor Ravagers",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Ravageurs-affregors.png?ssl=1",
+      "source_sha256": "1a53d4eece50dfaf9d956c3d03ac700710e9e71e41f0cebaac572a2329e55e54"
+    },
+    {
+      "slug": "hearthkyn-salvagers",
+      "name": "Hearthkyn Salvagers",
+      "source_url": "https://i0.wp.com/astartes.space/wp-content/uploads/2024/10/Recuperateurs-Atrekogs.png?ssl=1",
+      "source_sha256": "1299defe75de72b6b8676a812a719e5b1935c589562aa7ffe9b048a81bbc0b1e"
+    },
+    {
+      "slug": "raveners",
+      "name": "Ravengers",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2026/02/rodeurs.png?ssl=1",
+      "source_sha256": "947024c06373687703a28466cda96d3bca58354128976e7da03b96caf11dde5e"
+    },
+    {
+      "slug": "sanctifiers",
+      "name": "Sanctifiers",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2026/02/Sanctificateurs.png?ssl=1",
+      "source_sha256": "e5d1992185f4ce38831633e5cbec4845826e571eeb54b9005e5fdc6a805c8457"
+    },
+    {
+      "slug": "imperial-navy-breachers",
+      "name": "Imperial Navy Breachers",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Sapeurs-marine-imperiale.png?ssl=1",
+      "source_sha256": "ed53b4aa9a16a94221443170b7e10133f986e8817b2efc90e3b278ee9fdb0b7f"
+    },
+    {
+      "slug": "wolf-scouts",
+      "name": "Wolf Scouts",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2026/02/scout-space-wolfes.png?ssl=1",
+      "source_sha256": "8f94951f701daf963857895bcfe6f72d0a1ddf8f31eb1c5ed2151cc09ef2e3e5"
+    },
+    {
+      "slug": "inquisitorial-agents",
+      "name": "Inquisitorial Agents",
+      "source_url": "https://i1.wp.com/astartes.space/wp-content/uploads/2024/10/Suite-Inquisitoriale-1.png?ssl=1",
+      "source_sha256": "7b7d589431f1ecacb1e10b8263a4a0cd78cc41d39ca944766b0449661f93ce21"
+    },
+    {
+      "slug": "gellerpox-infected",
+      "name": "Gellerpox Infected",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Varioleux-Geller.png?ssl=1",
+      "source_sha256": "aefa9f6a1c21ad9c2761957c69c562fce5944872b841d317994e258b6e52300e"
+    },
+    {
+      "slug": "hernkyn-yaegirs",
+      "name": "Hernkyn Yaegirs",
+      "source_url": "https://i2.wp.com/astartes.space/wp-content/uploads/2024/10/Yaegirs-hernkogs.png?ssl=1",
+      "source_sha256": "f0ae99fe794a7b90aed467e74032e3788f39e32c787268a5e6d63bc753bd1f5d"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+ admin off
+ skip_install_trust
+ http_port 8080
+ https_port 8443
+ auto_https disable_redirects
+ default_sni {$APP_HOST}
+ servers {
+  protocols h1 h2
+ }
+}
+# v1.10: environment of the proxy container (.env, see scripts/domain.sh, cert.sh, tailscale.sh):
+#   APP_HOST       LAN address of the server (certificate of the local CA, as before)
+#   KS_DOMAIN      optional domain, e.g. killstass.su (unset: the placeholder killstass.invalid is never used)
+#   KS_TLS_MODE    internal (local CA) or files (Let's Encrypt certificate from scripts/cert.sh in /certs)
+#   KS_ALLOW_NETS  client networks allowed in (default the LAN; + 100.64.0.0/10 with Tailscale)
+# Caddy itself never talks to an ACME server: the DNS-01 certificate is obtained outside (lego).
+(tls-internal) {
+ tls internal
+}
+(tls-files) {
+ tls /certs/{$KS_DOMAIN}.crt /certs/{$KS_DOMAIN}.key
+}
+(lan) {
+ @outside not remote_ip {$KS_ALLOW_NETS:192.168.1.0/24}
+ respond @outside "LAN only" 403
+}
+(app) {
+ import lan
+ encode gzip
+ header {
+  Strict-Transport-Security "max-age=31536000"
+  X-Frame-Options "DENY"
+  Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  ?Cache-Control "no-store"
+  -Server
+ }
+ # v1.8: roster documents (up to 500 selections) need more than ordinary JSON requests.
+ # v1.9: BattleScribe/New Recruit import (.ros/.rosz as base64 in JSON) gets 1MB.
+ # v1.10: an avatar (up to 192 KB as base64) and a killzone map frame get their own limits.
+ # The matchers are disjoint: nested request_body limits would apply the smallest one.
+ @rosterimport path /api/rosters/import
+ request_body @rosterimport {
+  max_size 1MB
+ }
+ @rosters {
+  path /api/rosters /api/rosters/*
+  not path /api/rosters/import
+ }
+ request_body @rosters {
+  max_size 256KB
+ }
+ @avatar path /api/profile/avatar
+ request_body @avatar {
+  max_size 320KB
+ }
+ @boards path /api/boards /api/boards/*
+ request_body @boards {
+  max_size 128KB
+ }
+ @ordinary not path /api/rosters /api/rosters/* /api/profile/avatar /api/boards /api/boards/*
+ request_body @ordinary {
+  max_size 32KB
+ }
+ # Caddy-generated errors bypass normal response headers; handle them explicitly.
+ handle_errors {
+  header Cache-Control "no-store"
+  respond "{http.error.status_text}" {http.error.status_code}
+ }
+ # Successful assets set cache policy in the API; upstream/proxy errors must not be cached.
+ reverse_proxy api:8000 {
+  header_up X-Real-IP {remote_host}
+  header_up -X-Forwarded-For
+  flush_interval -1
+ }
+}
+http://:8090 {
+ bind 127.0.0.1
+ respond /health "ok" 200
+}
+# route keeps the written order (otherwise redir would run before respond).
+http://:8080 {
+ route {
+  import lan
+  @domain host {$KS_DOMAIN:killstass.invalid}
+  redir @domain https://{$KS_DOMAIN:killstass.invalid}{uri} 308
+  redir https://{$APP_HOST}{uri} 308
+ }
+}
+https://{$APP_HOST}:8443 {
+ tls internal
+ import app
+}
+https://{$KS_DOMAIN:killstass.invalid}:8443 {
+ import tls-{$KS_TLS_MODE:internal}
+ import app
+}

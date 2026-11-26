@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+*.dump
+backups/
+*.key
+__pycache__/
+.pytest_cache/
+.venv/
+*.png
+!web/icon-192.png
+!web/icon-512.png
+!web/factions/*.png
+
+catalog-cache/
+catalog-output/
+node_modules
+test-results/
+playwright-report/
+# v1.10: certificates, Tailscale state, DNS provider keys (scripts/cert.sh, scripts/tailscale.sh)
+local/

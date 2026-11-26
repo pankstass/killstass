@@ -1,0 +1,564 @@
+{
+ "_note": "Editorial English summaries keyed by catalog/game_sequence code. Not official Games Workshop text.",
+ "catalog": {
+  "2024-wahapedia-archetype-infiltration": {
+   "label": "Infiltration"
+  },
+  "2024-wahapedia-archetype-recon": {
+   "label": "Recon"
+  },
+  "2024-wahapedia-archetype-security": {
+   "label": "Security"
+  },
+  "2024-wahapedia-archetype-seek-destroy": {
+   "label": "Seek & Destroy"
+  },
+  "2024-wahapedia-killzone-bheta-decima-1": {
+   "label": "Bheta-Decima · layout 1",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-bheta-decima-2": {
+   "label": "Bheta-Decima · layout 2",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-bheta-decima-3": {
+   "label": "Bheta-Decima · layout 3",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-bheta-decima-4": {
+   "label": "Bheta-Decima · layout 4",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-bheta-decima-5": {
+   "label": "Bheta-Decima · layout 5",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-bheta-decima-6": {
+   "label": "Bheta-Decima · layout 6",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-gallowdark-1": {
+   "label": "Gallowdark · layout 1",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-gallowdark-2": {
+   "label": "Gallowdark · layout 2",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-gallowdark-3": {
+   "label": "Gallowdark · layout 3",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-gallowdark-4": {
+   "label": "Gallowdark · layout 4",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-gallowdark-5": {
+   "label": "Gallowdark · layout 5",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-gallowdark-6": {
+   "label": "Gallowdark · layout 6",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-non-specific-1": {
+   "label": "Non-specific · layout 1",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-non-specific-2": {
+   "label": "Non-specific · layout 2",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-non-specific-3": {
+   "label": "Non-specific · layout 3",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-non-specific-4": {
+   "label": "Non-specific · layout 4",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-non-specific-5": {
+   "label": "Non-specific · layout 5",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-non-specific-6": {
+   "label": "Non-specific · layout 6",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-tomb-world-1": {
+   "label": "Tomb World · layout 1",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-tomb-world-2": {
+   "label": "Tomb World · layout 2",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-tomb-world-3": {
+   "label": "Tomb World · layout 3",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-tomb-world-4": {
+   "label": "Tomb World · layout 4",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-tomb-world-5": {
+   "label": "Tomb World · layout 5",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-tomb-world-6": {
+   "label": "Tomb World · layout 6",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-volkus-1": {
+   "label": "Volkus · layout 1",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-volkus-2": {
+   "label": "Volkus · layout 2",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-volkus-3": {
+   "label": "Volkus · layout 3",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-volkus-4": {
+   "label": "Volkus · layout 4",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-volkus-5": {
+   "label": "Volkus · layout 5",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2024-wahapedia-killzone-volkus-6": {
+   "label": "Volkus · layout 6",
+   "summary": "Layout geometry — see the source link; images are not included."
+  },
+  "2021-zone": {
+   "label": "Practice map 2021"
+  },
+  "2024-zone": {
+   "label": "Practice map — open zone"
+  },
+  "2021-mission": {
+   "label": "Practice mission 2021"
+  },
+  "2024-mission": {
+   "label": "Practice mission — sector control"
+  },
+  "2024-critical": {
+   "label": "Critical objective (practice)"
+  },
+  "2024-tactical": {
+   "label": "Tactical objective (practice)"
+  },
+  "2024-wahapedia-pack-approved2025": {
+   "label": "Approved Ops 2025"
+  },
+  "2021-vp-critical": {
+   "label": "Critical objective"
+  },
+  "2021-vp-manual": {
+   "label": "Other / total VP"
+  },
+  "2021-vp-tactical": {
+   "label": "Tactical objective"
+  },
+  "2024-local-source-recorded": {
+   "label": "Final VP of a played match"
+  },
+  "2024-vp-critical": {
+   "label": "Critical objective"
+  },
+  "2024-vp-kill": {
+   "label": "Kills"
+  },
+  "2024-vp-manual": {
+   "label": "Other / total VP"
+  },
+  "2024-vp-tactical": {
+   "label": "Tactical objective"
+  },
+  "2024-wahapedia-source-crit": {
+   "label": "Crit Op"
+  },
+  "2024-wahapedia-source-tac": {
+   "label": "Tac Op"
+  },
+  "2021-team-a": {
+   "label": "Practice team 2021"
+  },
+  "2024-team-a": {
+   "label": "Practice team Alpha"
+  },
+  "2024-team-b": {
+   "label": "Practice team Bravo"
+  },
+  "2024-battlekit-team-strike-force-variel": {
+   "label": "Unverified: Strike Force Variel"
+  },
+  "2024-wahapedia-rule-control": {
+   "label": "Control",
+   "summary": "Marker control compares the total APL of contesting operatives. Check the full rule and team exceptions."
+  },
+  "2024-wahapedia-rule-firefight": {
+   "label": "Firefight phase",
+   "summary": "Alternate activating ready operatives, then counteract as the rules allow."
+  },
+  "2024-wahapedia-rule-strategy": {
+   "label": "Strategy phase",
+   "summary": "Initiative, Ready, then alternate strategic gambits."
+  },
+  "2024-wahapedia-mission-data": {
+   "label": "Data",
+   "summary": "From turning point 2, Compile Data (1 AP): add a data unit to a controlled marker, at most once per marker per turning point. Send Data (1 AP) only in turning point 4: remove all data from a controlled marker and score that many VP. Neither action can be taken within enemy control range. At the end of turning points 2 and 3, +1 VP if you performed more Compile Data actions than the enemy."
+  },
+  "2024-wahapedia-mission-download": {
+   "label": "Download",
+   "summary": "A 1 AP action available from turning point 3 on the centre marker or an enemy-side controlled marker; not within enemy control range and not again on a marker already downloaded. At the end of turning points 2–4, +1 VP for controlling more non-downloaded markers. A download scores 1 VP in turning point 3 or 2 VP in turning point 4."
+  },
+  "2024-wahapedia-mission-energy-cells": {
+   "label": "Energy Cells",
+   "summary": "Objective markers can be picked up from turning point 2: extra cost +2 AP in turning point 2, +1 AP in 3, normal in 4; the action cannot be made free or cheaper. A carrier cannot be removed and set up more than 6\" away. At the end of turning points 2–4, +1 VP for controlling more markers. At the end of the battle, +1 VP for each marker carried."
+  },
+  "2024-wahapedia-mission-loot": {
+   "label": "Loot",
+   "summary": "After the first turning point: Loot (1 AP) on a controlled marker; not within enemy control range and not again on the same marker this turning point. +1 VP per action, at most 2 VP per turning point."
+  },
+  "2024-wahapedia-mission-orb": {
+   "label": "Orb",
+   "summary": "The orb starts on the centre marker. After the first turning point, a 1 AP action on a controlled marker holding the orb moves it from the centre to any outer marker or back; not within enemy control range. At the end of each turning point, +1 VP for each controlled marker without the orb."
+  },
+  "2024-wahapedia-mission-reboot": {
+   "label": "Reboot",
+   "summary": "Number the markers 1–3. At the start of each Gambit, secretly and simultaneously pick a marker: if both pick the same one, it is inert; otherwise the unpicked one is inert. From turning point 2, Reboot (2 AP) on a controlled inert marker removes inertness; not within enemy control range. At the end of turning points 2–4, +1 VP for each controlled non-inert marker."
+  },
+  "2024-wahapedia-mission-secure": {
+   "label": "Secure",
+   "summary": "After the first turning point: 1 AP to secure a controlled marker until the opponent secures it; not within enemy control range. At the end of each turning point, +1 VP for at least one secured marker and +1 VP if you have more than the opponent."
+  },
+  "2024-wahapedia-mission-stake-claim": {
+   "label": "Stake Claim",
+   "summary": "At the start of the Gambit in turning points 2–4, starting with the initiative: choose a marker and pledge either to control it or to keep the enemy from contesting it by the end of the turning point. Each marker can be chosen once per battle. At the end of the turning point, +1 VP for controlling more markers and +1 VP for a fulfilled pledge."
+  },
+  "2024-wahapedia-mission-transmission": {
+   "label": "Transmission",
+   "summary": "After the first turning point: a 1 AP action makes a controlled marker transmit until the start of the next turning point; not within enemy control range. At the end of each turning point, +1 VP for controlling at least one transmitting marker and another +1 VP for more such markers than the enemy."
+  },
+  "2024-wahapedia-tac-op-dominate": {
+   "label": "Dominate",
+   "summary": "When your operative incapacitates an enemy, it gains a Dominate token, or two if the enemy has 12+ Wounds. At the end of turning points 3 and 4 you may remove tokens from your operatives that are on the killzone and not incapacitated: 1 VP per token, at most 3 VP per turning point.",
+   "reveal": "The first time your operative incapacitates an enemy."
+  },
+  "2024-wahapedia-tac-op-envoy": {
+   "label": "Envoy",
+   "summary": "As a strategic gambit in turning points 2–4, select one of your operatives as the envoy until the next Ready. You cannot repeat a previous choice or one ignored for Kill Op. At the end of the turning point, 1 VP if the envoy is wholly in enemy territory and outside enemy control range; 2 VP if it also lost no wounds this turning point.",
+   "reveal": "The first time you select an envoy."
+  },
+  "2024-wahapedia-tac-op-flank": {
+   "label": "Flank",
+   "summary": "Split the killzone into two flanks with a line between the centres of the players' edges. Operatives wholly within a flank and in enemy territory contest it; control goes to the higher total APL. Once revealed, at the end of turning points 2–4, 1 VP per controlled flank; in turning point 4, 2 VP if it was also controlled in turning point 3. Overall cap 2 VP per turning point.",
+   "reveal": "As a strategic gambit."
+  },
+  "2024-wahapedia-tac-op-martyrs": {
+   "label": "Martyrs",
+   "summary": "The first time each of your operatives is incapacitated while contesting a marker, place a Martyr token on that marker; being incapacitated again after returning gives no token. At the end of turning points 2–4 you may remove tokens from markers contested by your operatives: 1 VP each, or 2 VP each if you control the marker. At most 2 VP per turning point.",
+   "reveal": "The first time your operative is incapacitated while contesting a marker."
+  },
+  "2024-wahapedia-tac-op-plant-banner": {
+   "label": "Plant Banner",
+   "summary": "From turning point 2, Plant Banner (1 AP): place the banner within the operative's control range, wholly in enemy territory and more than 5\" from a neutral edge. Once per battle, not within enemy control range; the banner can be picked up. At the end of each turning point, 1 VP if it is on the killzone, wholly in enemy territory and controlled by you; 2 VP if it is also not contested by the enemy.",
+   "reveal": "When you take the Plant Banner action."
+  },
+  "2024-wahapedia-tac-op-plant-devices": {
+   "label": "Plant Devices",
+   "summary": "From turning point 2, plant a device on a controlled marker for 1 AP, not within enemy control range and not where you already have a device. At the end of each turning point, 1 VP for a device on the enemy marker and 1 VP for each other marker with a device that the enemy contests; at most 2 VP.",
+   "reveal": "The first Plant Device action."
+  },
+  "2024-wahapedia-tac-op-retrieval": {
+   "label": "Retrieval",
+   "summary": "From turning point 2, Retrieve (1 AP) on a controlled marker you have not yet searched: the operative gains a Retrieval marker; it cannot already carry a marker or be within enemy control range. Retrieval markers can be picked up. +1 VP for the first search of each marker, and +1 VP at the end of the battle for each Retrieval marker carried.",
+   "reveal": "The first time you score VP."
+  },
+  "2024-wahapedia-tac-op-rout": {
+   "label": "Rout",
+   "summary": "When your operative incapacitates an enemy while within 6\" of the enemy drop zone, +1 VP, or +2 VP if the enemy has 12+ Wounds. At most 2 VP per turning point.",
+   "reveal": "The first time you score VP."
+  },
+  "2024-wahapedia-tac-op-scout-enemy-movement": {
+   "label": "Scout Enemy Movement",
+   "summary": "From turning point 2, Scout (1 AP): choose a ready, visible enemy more than 6\" away; it is observed until the next Ready. Not on an Engage order and not within enemy control range. At the end of each turning point, 1 VP for each observed enemy visible to any of your operatives; at most 2 VP.",
+   "reveal": "The first Scout action."
+  },
+  "2024-wahapedia-tac-op-steal-intelligence": {
+   "label": "Steal Intelligence",
+   "summary": "Before removing an incapacitated enemy, place an intelligence marker within its control range. Your operatives can pick them up, carrying up to two, or one plus another marker. At the end of turning points 2–4, +1 VP if your operatives carry intelligence; at the end of the battle, 1 VP for each marker carried.",
+   "reveal": "The first enemy incapacitated."
+  },
+  "2024-wahapedia-tac-op-sweep-clear": {
+   "label": "Sweep & Clear",
+   "summary": "When an enemy operative contesting an objective marker is incapacitated, that marker is swept until the Ready step of the next Strategy phase (per the GW commentary, an Expendable operative does not make it swept). Clear action (1AP): the marker the active operative controls is cleared for the turning point; not in the first turning point or within control range of an enemy. At the end of each turning point after the first: the centre or the enemy marker is cleared and not contested by enemies — 1 VP, or 2 VP if it is also swept. If your operatives control a swept marker — 1 VP. At most 2 VP per turning point.",
+   "reveal": "The first enemy incapacitated while contesting an objective marker, or your first Clear action (whichever comes first)."
+  },
+  "2024-wahapedia-tac-op-track-enemy": {
+   "label": "Track Enemy",
+   "summary": "A tracked enemy is a valid target for your Conceal operative within 6\" that is not itself a valid target for the enemy and is outside enemy control range. At the end of turning points 2–4: one tracked enemy gives 1 VP (2 VP in turning point 4), two or more give 2 VP. At most 2 VP per turning point.",
+   "reveal": "The first time you score VP."
+  },
+  "2024-wahapedia-team-angel-of-death": {
+   "label": "Angels of Death"
+  },
+  "2024-wahapedia-team-battleclade": {
+   "label": "Battleclade"
+  },
+  "2024-wahapedia-team-blades-of-khaine": {
+   "label": "Blades of Khaine"
+  },
+  "2024-wahapedia-team-blooded": {
+   "label": "Blooded"
+  },
+  "2024-wahapedia-team-brood-brother": {
+   "label": "Brood Brothers"
+  },
+  "2024-wahapedia-team-canoptek-circle": {
+   "label": "Canoptek Circle"
+  },
+  "2024-wahapedia-team-celestian-insidiants": {
+   "label": "Celestian Insidiants"
+  },
+  "2024-wahapedia-team-chaos-cult": {
+   "label": "Chaos Cult"
+  },
+  "2024-wahapedia-team-corsair-voidscarred": {
+   "label": "Corsair Voidscarred"
+  },
+  "2024-wahapedia-team-death-korps": {
+   "label": "Death Korps"
+  },
+  "2024-wahapedia-team-deathwatch": {
+   "label": "Deathwatch"
+  },
+  "2024-wahapedia-team-elucidian-starstrider": {
+   "label": "Elucidian Starstriders"
+  },
+  "2024-wahapedia-team-exaction-squad": {
+   "label": "Exaction Squad"
+  },
+  "2024-wahapedia-team-exodite-dragon-masters": {
+   "label": "Exodite Dragon Masters"
+  },
+  "2024-wahapedia-team-farstalker-kinband": {
+   "label": "Farstalker Kinband"
+  },
+  "2024-wahapedia-team-fellgor-ravager": {
+   "label": "Fellgor Ravagers"
+  },
+  "2024-wahapedia-team-gellerpox-infected": {
+   "label": "Gellerpox Infected"
+  },
+  "2024-wahapedia-team-goremonger": {
+   "label": "Goremongers"
+  },
+  "2024-wahapedia-team-hand-of-the-archon": {
+   "label": "Hand of the Archon"
+  },
+  "2024-wahapedia-team-hearthkyn-salvager": {
+   "label": "Hearthkyn Salvagers"
+  },
+  "2024-wahapedia-team-hernkyn-yaegir": {
+   "label": "Hernkyn Yaegirs"
+  },
+  "2024-wahapedia-team-hierotek-circle": {
+   "label": "Hierotek Circle"
+  },
+  "2024-wahapedia-team-hunter-clade": {
+   "label": "Hunter Clade"
+  },
+  "2024-wahapedia-team-imperial-navy-breacher": {
+   "label": "Imperial Navy Breachers"
+  },
+  "2024-wahapedia-team-inquisitorial-agent": {
+   "label": "Inquisitorial Agents"
+  },
+  "2024-wahapedia-team-kasrkin": {
+   "label": "Kasrkin"
+  },
+  "2024-wahapedia-team-kommandos": {
+   "label": "Kommandos"
+  },
+  "2024-wahapedia-team-legionary": {
+   "label": "Legionaries"
+  },
+  "2024-wahapedia-team-mandrakes": {
+   "label": "Mandrakes"
+  },
+  "2024-wahapedia-team-murderwing": {
+   "label": "Murderwing"
+  },
+  "2024-wahapedia-team-nemesis-claw": {
+   "label": "Nemesis Claw"
+  },
+  "2024-wahapedia-team-novitiates": {
+   "label": "Novitiates"
+  },
+  "2024-wahapedia-team-pathfinders": {
+   "label": "Pathfinders"
+  },
+  "2024-wahapedia-team-phobos-strike-team": {
+   "label": "Phobos Strike Team"
+  },
+  "2024-wahapedia-team-plague-marines": {
+   "label": "Plague Marines"
+  },
+  "2024-wahapedia-team-ratlings": {
+   "label": "Ratlings"
+  },
+  "2024-wahapedia-team-raveners": {
+   "label": "Raveners"
+  },
+  "2024-wahapedia-team-sanctifiers": {
+   "label": "Sanctifiers"
+  },
+  "2024-wahapedia-team-scout-squad": {
+   "label": "Scout Squad"
+  },
+  "2024-wahapedia-team-spectre-squad": {
+   "label": "Spectre Squad"
+  },
+  "2024-wahapedia-team-tempestus-aquilons": {
+   "label": "Tempestus Aquilons"
+  },
+  "2024-wahapedia-team-vespid-stingwings": {
+   "label": "Vespid Stingwings"
+  },
+  "2024-wahapedia-team-void-dancer-troupe": {
+   "label": "Void-Dancer Troupe"
+  },
+  "2024-wahapedia-team-warpcoven": {
+   "label": "Warpcoven"
+  },
+  "2024-wahapedia-team-wolf-scouts": {
+   "label": "Wolf Scouts"
+  },
+  "2024-wahapedia-team-wrecka-krew": {
+   "label": "Wrecka Krew"
+  },
+  "2024-wahapedia-team-wyrmblade": {
+   "label": "Wyrmblade"
+  },
+  "2024-wahapedia-team-xv26-stealth-battlesuits": {
+   "label": "XV26 Stealth Battlesuits"
+  }
+ },
+ "sequence": {
+  "2024-wahapedia-sequence-teams": {
+   "phase": "Battlefield setup",
+   "label": "Choose teams",
+   "description": "Each player picks a kill team."
+  },
+  "2024-wahapedia-sequence-terrain": {
+   "phase": "Battlefield setup",
+   "label": "Prepare the killzone",
+   "description": "Choose a killzone, set up terrain and agree on its types."
+  },
+  "2024-wahapedia-sequence-crit": {
+   "phase": "Battlefield setup",
+   "label": "Choose Crit Op",
+   "description": "Determine the shared critical operation and place the markers. Except on Bheta-Decima, markers go on the killzone floor."
+  },
+  "2024-wahapedia-sequence-roll": {
+   "phase": "Battlefield setup",
+   "label": "First roll-off",
+   "description": "The winner of the preliminary roll-off decides the initiative."
+  },
+  "2024-wahapedia-sequence-zones": {
+   "phase": "Battlefield setup",
+   "label": "Choose drop zones",
+   "description": "The player with initiative picks a drop zone; the other takes the remaining one and the Re-roll initiative card."
+  },
+  "2024-wahapedia-sequence-operatives": {
+   "phase": "Operative selection",
+   "label": "Select roster",
+   "description": "Secretly select operatives by the team rules, then reveal rosters simultaneously."
+  },
+  "2024-wahapedia-sequence-equipment": {
+   "phase": "Operative selection",
+   "label": "Select equipment",
+   "description": "Secretly select up to four different equipment options, then reveal simultaneously."
+  },
+  "2024-wahapedia-sequence-cp": {
+   "phase": "Operative selection",
+   "label": "Gain CP",
+   "description": "Each player starts with 2 CP."
+  },
+  "2024-wahapedia-sequence-tac": {
+   "phase": "Operative selection",
+   "label": "Select Tac Op",
+   "description": "Secretly select one tactical operation from your team's archetypes. Reveal it at the moment stated on the card."
+  },
+  "2024-wahapedia-sequence-items": {
+   "phase": "Deployment",
+   "label": "Set up equipment",
+   "description": "Alternating, starting with the initiative, set up individual items of pre-battle equipment, not whole options."
+  },
+  "2024-wahapedia-sequence-deploy": {
+   "phase": "Deployment",
+   "label": "Set up operatives",
+   "description": "Alternating, starting with the initiative, set up a third of your roster rounded up, wholly within your drop zone and on a Conceal order."
+  },
+  "2024-wahapedia-sequence-initiative": {
+   "phase": "Strategy phase (each turning point)",
+   "label": "Determine initiative",
+   "description": "Every turning point, including the first, roll off without re-rolling ties. Team rules apply before cards, starting with the player losing the roll. Then, starting with the losing player, alternate playing initiative cards or passing until two passes in a row. A Re-roll replaces earlier modifications. The winner decides the initiative. On a tie, the player who does not currently have the initiative wins; the player who lost the roll gets the ± turning point number card, except in the fourth."
+  },
+  "2024-wahapedia-sequence-ready": {
+   "phase": "Strategy phase (each turning point)",
+   "label": "Ready",
+   "description": "Ready your operatives. Each player gains 1 CP; from turning point 2 the player without initiative gains 2 CP instead of 1. Unspent CP are kept."
+  },
+  "2024-wahapedia-sequence-gambit": {
+   "phase": "Strategy phase (each turning point)",
+   "label": "Gambits and primary op",
+   "description": "Alternate strategic gambits starting with the initiative until two passes in a row. Each specific gambit once per turning point. In the first turning point, secretly lock in the primary op — Crit, Tac or Kill — as a strategic gambit."
+  },
+  "2024-wahapedia-sequence-activate": {
+   "phase": "Firefight phase",
+   "label": "Activate operatives",
+   "description": "Alternating, starting with the initiative, activate a ready operative: choose an order and perform actions within its AP. After activation the operative is expended."
+  },
+  "2024-wahapedia-sequence-counteract": {
+   "phase": "Firefight phase",
+   "label": "Counteract",
+   "description": "Once all your operatives are expended, you may counteract with an expended operative on Engage: one 1 AP action, not Guard, at most 2\" of movement. Each operative once per turning point. The phase ends when all operatives are expended."
+  },
+  "2024-wahapedia-sequence-vp": {
+   "phase": "End of turning point scoring",
+   "label": "Score VP",
+   "description": "Check the Crit Op and your selected Tac Op: follow their scoring timing and limits. Each category is capped at 6 VP per battle before the bonus. Kill grade depends on currently incapacitated enemies; subtract any operative that returned. Players confirm conditional actions and control themselves."
+  },
+  "2024-wahapedia-sequence-next": {
+   "phase": "End of turning point scoring",
+   "label": "Next turning point",
+   "description": "Save CP and notes, then move to the next turning point; the first one is not skipped, there are four in total."
+  },
+  "2024-wahapedia-sequence-four": {
+   "phase": "End of battle",
+   "label": "Play all four turning points",
+   "description": "Even if one side has no operatives left, the other plays out the remaining turning points."
+  },
+  "2024-wahapedia-sequence-kill-end": {
+   "phase": "End of battle",
+   "label": "Extra Kill VP",
+   "description": "The player with the higher kill grade at the end of the battle gains 1 more Kill Op VP; on a tie, nobody does."
+  },
+  "2024-wahapedia-sequence-primary-end": {
+   "phase": "End of battle",
+   "label": "Reveal primary op",
+   "description": "Reveal primary ops simultaneously. The bonus is half the VP earned in the chosen category, rounded up."
+  },
+  "2024-wahapedia-sequence-result": {
+   "phase": "End of battle",
+   "label": "Determine the result",
+   "description": "More total VP wins, equal VP is a draw. In KILLSTASS the second player confirms the result before it counts in stats."
+  }
+ }
+}

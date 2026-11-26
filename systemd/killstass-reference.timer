@@ -1,0 +1,8 @@
+[Unit]
+Description=Weekly killstass rules reference update
+[Timer]
+OnCalendar=Mon *-*-* 05:15:00 Europe/Moscow
+Persistent=true
+RandomizedDelaySec=30m
+[Install]
+WantedBy=timers.target

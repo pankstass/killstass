@@ -1,0 +1,12 @@
+[Unit]
+Description=killstass LAN firewall guard (preserves Docker/fail2ban)
+Requires=docker.service
+After=docker.service network-online.target
+PartOf=docker.service
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/opt/killstass/scripts/firewall.sh
+ExecReload=/opt/killstass/scripts/firewall.sh
+[Install]
+WantedBy=multi-user.target docker.service

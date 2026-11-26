@@ -1,0 +1,3 @@
+heading.woff2: subset/instanced derivative of PT Sans Narrow Bold (ParaType), renamed Killstass Heading. SIL OFL 1.1, see Heading-LICENSE.txt.
+mono.woff2: subset derivative of Liberation Mono (2010 Google, 2012 Red Hat), renamed Killstass Mono. SIL OFL 1.1, see Liberation-LICENSE.txt.
+Subsets retain Latin and Cyrillic; no Games Workshop fonts.

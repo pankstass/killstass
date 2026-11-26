@@ -1,0 +1,9 @@
+[Unit]
+Description=Twice-daily killstass certificate renewal check
+[Timer]
+OnCalendar=*-*-* 03:40:00 Europe/Moscow
+OnCalendar=*-*-* 15:40:00 Europe/Moscow
+Persistent=true
+RandomizedDelaySec=30m
+[Install]
+WantedBy=timers.target

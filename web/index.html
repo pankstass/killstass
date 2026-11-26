@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1f242c" />
+    <meta
+      name="description"
+      content="killstass — локальный журнал матчей Kill Team"
+    />
+    <meta name="killstass-version" content="{{VERSION}}" />
+    <title>KILLSTASS</title>
+    <link rel="icon" href="/static/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/static/icon-192.png" />
+    <link rel="manifest" href="/static/manifest.webmanifest" />
+    <link rel="stylesheet" href="/static/v/{{VERSION}}/style.css" />
+    <script src="/static/v/{{VERSION}}/boot.js"></script>
+    <script type="module" src="/static/v/{{VERSION}}/main.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#content">К содержимому</a>
+    <div id="app"><main id="content"><p>Загрузка приложения… Если загрузка не завершается, обновите страницу и проверьте соединение с сервером.</p></main></div>
+    <div id="notice" role="status" aria-live="polite" hidden></div>
+    <div id="netstate" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>
